@@ -79,6 +79,8 @@ const ja: Partial<Dict> = {
   "analysis.builder.holes": "共通の弱点",
   "analysis.builder.holesHint": "2体以上に効果抜群なタイプ",
   "analysis.builder.noHoles": "共通の弱点なし — バランス良好！",
+  "analysis.builder.suggest": "おすすめの3体目",
+  "analysis.builder.suggestHint": "チームの穴と弱点を補う",
 
   "type.normal": "ノーマル",
   "type.fire": "ほのお",

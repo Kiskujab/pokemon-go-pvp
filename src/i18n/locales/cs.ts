@@ -80,6 +80,8 @@ const cs: Partial<Dict> = {
   "analysis.builder.holes": "Společné slabiny",
   "analysis.builder.holesHint": "Typy zasahující tvrdě 2+ členy",
   "analysis.builder.noHoles": "Žádné společné slabiny — pěkně vyvážené!",
+  "analysis.builder.suggest": "Doporučený 3.",
+  "analysis.builder.suggestHint": "Doplní mezery a slabiny týmu",
 
   "type.normal": "Normální",
   "type.fire": "Ohnivý",

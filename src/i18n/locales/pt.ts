@@ -80,6 +80,8 @@ const pt: Partial<Dict> = {
   "analysis.builder.holes": "Fraquezas comuns",
   "analysis.builder.holesHint": "Tipos que acertam forte 2+ da equipe",
   "analysis.builder.noHoles": "Sem fraquezas comuns — bem equilibrado!",
+  "analysis.builder.suggest": "3.º sugerido",
+  "analysis.builder.suggestHint": "Preenche lacunas e fraquezas da equipe",
 
   "type.normal": "Normal",
   "type.fire": "Fogo",

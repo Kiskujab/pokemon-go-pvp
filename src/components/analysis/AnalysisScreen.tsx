@@ -115,7 +115,7 @@ export default function AnalysisScreen({ onExit }: Props) {
           />
         </div>
       ) : (
-        <TeamBuilder teamIds={teamIds} onChange={updateTeam} />
+        <TeamBuilder teamIds={teamIds} pool={pool} onChange={updateTeam} />
       )}
     </div>
   );

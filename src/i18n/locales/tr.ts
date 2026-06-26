@@ -80,6 +80,8 @@ const tr: Partial<Dict> = {
   "analysis.builder.holes": "Ortak zayıflıklar",
   "analysis.builder.holesHint": "Takımın 2+ üyesini sert vuran tipler",
   "analysis.builder.noHoles": "Ortak zayıflık yok — güzel dengeli!",
+  "analysis.builder.suggest": "Önerilen 3.",
+  "analysis.builder.suggestHint": "Takımın boşluklarını ve zayıflıklarını kapatır",
 
   "type.normal": "Normal",
   "type.fire": "Ateş",

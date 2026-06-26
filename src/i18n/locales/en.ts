@@ -87,6 +87,8 @@ const en = {
   "analysis.builder.holes": "Shared weaknesses",
   "analysis.builder.holesHint": "Types that hit 2+ of your team hard",
   "analysis.builder.noHoles": "No shared weaknesses — nicely balanced!",
+  "analysis.builder.suggest": "Suggested 3rd pick",
+  "analysis.builder.suggestHint": "Fills your team's gaps and weaknesses",
 
   // --- type names ---
   "type.normal": "Normal",

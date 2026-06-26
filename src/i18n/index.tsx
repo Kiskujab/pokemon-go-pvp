@@ -2,6 +2,7 @@ import {
   createContext,
   useCallback,
   useContext,
+  useEffect,
   useMemo,
   useState,
   type ReactNode,
@@ -20,6 +21,16 @@ import tr from "./locales/tr";
 import ja from "./locales/ja";
 import zh from "./locales/zh";
 import hi from "./locales/hi";
+import ko from "./locales/ko";
+import ru from "./locales/ru";
+import nl from "./locales/nl";
+import id from "./locales/id";
+import th from "./locales/th";
+import vi from "./locales/vi";
+import uk from "./locales/uk";
+import ar from "./locales/ar";
+import sv from "./locales/sv";
+import el from "./locales/el";
 
 export type Lang =
   | "en"
@@ -28,13 +39,23 @@ export type Lang =
   | "es"
   | "it"
   | "pt"
+  | "nl"
+  | "sv"
   | "pl"
   | "cs"
+  | "el"
   | "tr"
   | "hu"
+  | "uk"
+  | "ru"
+  | "ar"
+  | "hi"
+  | "id"
+  | "vi"
+  | "th"
+  | "ko"
   | "ja"
-  | "zh"
-  | "hi";
+  | "zh";
 
 /** Order shown in the language picker, with native labels + flags. */
 export const LANGUAGES: { id: Lang; label: string; flag: string }[] = [
@@ -44,14 +65,27 @@ export const LANGUAGES: { id: Lang; label: string; flag: string }[] = [
   { id: "es", label: "Español", flag: "🇪🇸" },
   { id: "it", label: "Italiano", flag: "🇮🇹" },
   { id: "pt", label: "Português", flag: "🇵🇹" },
+  { id: "nl", label: "Nederlands", flag: "🇳🇱" },
+  { id: "sv", label: "Svenska", flag: "🇸🇪" },
   { id: "pl", label: "Polski", flag: "🇵🇱" },
   { id: "cs", label: "Čeština", flag: "🇨🇿" },
+  { id: "el", label: "Ελληνικά", flag: "🇬🇷" },
   { id: "tr", label: "Türkçe", flag: "🇹🇷" },
   { id: "hu", label: "Magyar", flag: "🇭🇺" },
+  { id: "uk", label: "Українська", flag: "🇺🇦" },
+  { id: "ru", label: "Русский", flag: "🇷🇺" },
+  { id: "ar", label: "العربية", flag: "🇸🇦" },
+  { id: "hi", label: "हिन्दी", flag: "🇮🇳" },
+  { id: "id", label: "Bahasa Indonesia", flag: "🇮🇩" },
+  { id: "vi", label: "Tiếng Việt", flag: "🇻🇳" },
+  { id: "th", label: "ไทย", flag: "🇹🇭" },
+  { id: "ko", label: "한국어", flag: "🇰🇷" },
   { id: "ja", label: "日本語", flag: "🇯🇵" },
   { id: "zh", label: "中文", flag: "🇨🇳" },
-  { id: "hi", label: "हिन्दी", flag: "🇮🇳" },
 ];
+
+/** Right-to-left locales — the document direction is flipped for these. */
+const RTL: Set<Lang> = new Set(["ar"]);
 
 // Each locale is layered over English so any missing key falls back gracefully.
 const DICTS: Record<Lang, Record<string, string>> = {
@@ -61,13 +95,23 @@ const DICTS: Record<Lang, Record<string, string>> = {
   es: { ...en, ...es },
   it: { ...en, ...it },
   pt: { ...en, ...pt },
+  nl: { ...en, ...nl },
+  sv: { ...en, ...sv },
   pl: { ...en, ...pl },
   cs: { ...en, ...cs },
+  el: { ...en, ...el },
   tr: { ...en, ...tr },
   hu: { ...en, ...hu },
+  uk: { ...en, ...uk },
+  ru: { ...en, ...ru },
+  ar: { ...en, ...ar },
+  hi: { ...en, ...hi },
+  id: { ...en, ...id },
+  vi: { ...en, ...vi },
+  th: { ...en, ...th },
+  ko: { ...en, ...ko },
   ja: { ...en, ...ja },
   zh: { ...en, ...zh },
-  hi: { ...en, ...hi },
 };
 
 const STORAGE_KEY = "pogo-pvp.lang";
@@ -108,6 +152,13 @@ const Ctx = createContext<I18n | null>(null);
 export function I18nProvider({ children }: { children: ReactNode }) {
   const [lang, setLangState] = useState<Lang>(detectInitial);
 
+  // Apply direction/lang for the initial (possibly persisted) locale on mount.
+  useEffect(() => {
+    document.documentElement.lang = lang;
+    document.documentElement.dir = RTL.has(lang) ? "rtl" : "ltr";
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const setLang = useCallback((l: Lang) => {
     setLangState(l);
     try {
@@ -115,7 +166,10 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     } catch {
       /* ignore */
     }
-    if (typeof document !== "undefined") document.documentElement.lang = l;
+    if (typeof document !== "undefined") {
+      document.documentElement.lang = l;
+      document.documentElement.dir = RTL.has(l) ? "rtl" : "ltr";
+    }
   }, []);
 
   const value = useMemo<I18n>(() => {

@@ -77,6 +77,8 @@ const zh: Partial<Dict> = {
   "analysis.builder.holes": "共同弱点",
   "analysis.builder.holesHint": "能重创2只以上队员的属性",
   "analysis.builder.noHoles": "没有共同弱点 — 很均衡！",
+  "analysis.builder.suggest": "推荐的第3只",
+  "analysis.builder.suggestHint": "补足队伍的空缺和弱点",
 
   "type.normal": "一般",
   "type.fire": "火",

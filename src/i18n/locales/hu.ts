@@ -79,6 +79,8 @@ const hu: Partial<Dict> = {
   "analysis.builder.holes": "Közös gyengeségek",
   "analysis.builder.holesHint": "Típusok, amik 2+ tagodat keményen ütik",
   "analysis.builder.noHoles": "Nincs közös gyengeség — szépen kiegyensúlyozott!",
+  "analysis.builder.suggest": "Ajánlott 3.",
+  "analysis.builder.suggestHint": "Kitölti a csapat hiányait és gyengeségeit",
 
   "type.normal": "Normal",
   "type.fire": "Fire",

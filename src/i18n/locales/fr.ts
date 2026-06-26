@@ -80,6 +80,8 @@ const fr: Partial<Dict> = {
   "analysis.builder.holes": "Faiblesses communes",
   "analysis.builder.holesHint": "Types qui touchent fort 2+ de ton équipe",
   "analysis.builder.noHoles": "Aucune faiblesse commune — bien équilibré !",
+  "analysis.builder.suggest": "3e suggéré",
+  "analysis.builder.suggestHint": "Comble les lacunes et faiblesses de l'équipe",
 
   "type.normal": "Normal",
   "type.fire": "Feu",

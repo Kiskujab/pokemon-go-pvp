@@ -80,6 +80,8 @@ const de: Partial<Dict> = {
   "analysis.builder.holes": "Gemeinsame Schwächen",
   "analysis.builder.holesHint": "Typen, die 2+ deiner Pokémon hart treffen",
   "analysis.builder.noHoles": "Keine gemeinsamen Schwächen — gut ausbalanciert!",
+  "analysis.builder.suggest": "Empfohlener 3.",
+  "analysis.builder.suggestHint": "Schließt Lücken und Schwächen deines Teams",
 
   "type.normal": "Normal",
   "type.fire": "Feuer",

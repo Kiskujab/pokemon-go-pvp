@@ -80,6 +80,8 @@ const hi: Partial<Dict> = {
   "analysis.builder.holes": "साझा कमज़ोरियाँ",
   "analysis.builder.holesHint": "टाइप जो 2+ सदस्यों को ज़ोर से मारते हैं",
   "analysis.builder.noHoles": "कोई साझा कमज़ोरी नहीं — अच्छा संतुलित!",
+  "analysis.builder.suggest": "सुझाया गया तीसरा",
+  "analysis.builder.suggestHint": "टीम की कमियों और कमज़ोरियों को भरता है",
 
   "type.normal": "सामान्य",
   "type.fire": "आग",

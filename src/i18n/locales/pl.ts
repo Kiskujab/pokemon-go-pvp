@@ -80,6 +80,8 @@ const pl: Partial<Dict> = {
   "analysis.builder.holes": "Wspólne słabości",
   "analysis.builder.holesHint": "Typy rażące mocno 2+ członków",
   "analysis.builder.noHoles": "Brak wspólnych słabości — dobrze zbalansowane!",
+  "analysis.builder.suggest": "Sugerowany 3.",
+  "analysis.builder.suggestHint": "Uzupełnia luki i słabości drużyny",
 
   "type.normal": "Normalny",
   "type.fire": "Ognisty",

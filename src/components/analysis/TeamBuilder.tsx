@@ -1,6 +1,6 @@
 import { useMemo } from "react";
-import { getPokemon } from "../../lib/data";
-import { teamCoverage, teamWeaknesses } from "../../lib/analysis";
+import { getPokemon, type PokemonEntry } from "../../lib/data";
+import { suggestThird, teamCoverage, teamWeaknesses } from "../../lib/analysis";
 import { useT } from "../../i18n";
 import Sprite from "../Sprite";
 import TypePills from "../TypePills";
@@ -8,11 +8,12 @@ import TypeChip from "../TypeChip";
 
 interface Props {
   teamIds: string[];
+  pool: PokemonEntry[];
   onChange: (ids: string[]) => void;
 }
 
 /** Coverage analysis for the roster assembled in the explorer. */
-export default function TeamBuilder({ teamIds, onChange }: Props) {
+export default function TeamBuilder({ teamIds, pool, onChange }: Props) {
   const { t, name } = useT();
   const team = useMemo(
     () => teamIds.map(getPokemon).filter((m): m is NonNullable<typeof m> => Boolean(m)),
@@ -21,6 +22,10 @@ export default function TeamBuilder({ teamIds, onChange }: Props) {
 
   const coverage = useMemo(() => teamCoverage(team), [team]);
   const weaknesses = useMemo(() => teamWeaknesses(team), [team]);
+  const suggestions = useMemo(
+    () => (team.length === 2 ? suggestThird(team, pool, teamIds, 6) : []),
+    [team, pool, teamIds]
+  );
 
   if (team.length === 0) {
     return (
@@ -56,6 +61,39 @@ export default function TeamBuilder({ teamIds, onChange }: Props) {
           </div>
         ))}
       </div>
+
+      {/* suggested 3rd pick (only with a 2-mon core) */}
+      {suggestions.length > 0 && (
+        <div className="animate-fade-up rounded-2xl border border-sky-400/30 bg-sky-500/10 p-4">
+          <div className="flex items-center gap-2 text-sm font-bold">
+            <span>✨</span>
+            {t("analysis.builder.suggest")}
+          </div>
+          <div className="mb-2 text-[11px] text-white/50">
+            {t("analysis.builder.suggestHint")}
+          </div>
+          <div className="grid grid-cols-3 gap-2 sm:grid-cols-6">
+            {suggestions.map((entry, i) => (
+              <button
+                key={entry.id}
+                type="button"
+                onClick={() => onChange([...teamIds, entry.id])}
+                style={{ animationDelay: `${i * 0.05}s` }}
+                className="group flex animate-pop flex-col items-center gap-1 rounded-lg bg-white/5 p-2 text-center transition hover:bg-sky-500/20"
+              >
+                <Sprite
+                  dex={entry.mon.sprite}
+                  name={entry.mon.name}
+                  className="h-12 w-12 object-contain transition group-hover:scale-110"
+                />
+                <span className="line-clamp-1 text-[10px] text-white/70">
+                  {name(entry.mon)}
+                </span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* coverage */}
       <div className="rounded-2xl border border-white/10 bg-[#1a1a1a] p-4">

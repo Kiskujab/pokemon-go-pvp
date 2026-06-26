@@ -86,3 +86,39 @@ export function teamWeaknesses(team: Pokemon[]): SharedWeakness[] {
   }
   return out.sort((a, b) => b.count - a.count);
 }
+
+/**
+ * Suggest a complementary 3rd pick from the pool for a 2-mon core. A candidate
+ * scores for: resisting the team's shared weaknesses (defensive synergy), and
+ * adding new super-effective coverage. It's penalised for stacking an existing
+ * shared weakness. Type-only (v1), pure data — no hardcoded picks.
+ */
+export function suggestThird(
+  team: Pokemon[],
+  pool: PokemonEntry[],
+  excludeIds: string[],
+  limit = 6
+): PokemonEntry[] {
+  const covSet = new Set(teamCoverage(team));
+  const shared = teamWeaknesses(team).map((w) => w.type);
+
+  const scored = pool
+    .filter((e) => !excludeIds.includes(e.id))
+    .map((entry) => {
+      const cov = strongVsTypes(entry.mon);
+      const gain = cov.filter((t) => !covSet.has(t)).length;
+      let defense = 0;
+      let stack = 0;
+      for (const t of shared) {
+        const m = effectiveness(t, entry.mon.types);
+        if (m < 0.999) defense++; // resists a team weakness — good switch-in
+        else if (m > 1.001) stack++; // shares the weakness — bad
+      }
+      const score = gain + 2 * defense - 1.5 * stack;
+      return { entry, score };
+    })
+    .filter((s) => s.score > 0)
+    .sort((a, b) => b.score - a.score);
+
+  return scored.slice(0, limit).map((s) => s.entry);
+}
