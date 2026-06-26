@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { searchPokemon, type PokemonEntry } from "../lib/data";
 import { useKeystrokeSearch } from "../hooks/useKeystrokeSearch";
+import { useT } from "../i18n";
 import MatchList from "./MatchList";
 import PokemonGrid from "./PokemonGrid";
 
@@ -24,6 +25,7 @@ export default function PokemonSearch({
   exclude = [],
   hint,
 }: Props) {
+  const { t } = useT();
   const [selected, setSelected] = useState(0);
 
   const filtered = useMemo(
@@ -54,12 +56,14 @@ export default function PokemonSearch({
     <div className="flex flex-col gap-3">
       <div className="flex items-baseline gap-3">
         <span className="font-mono text-2xl tracking-wider text-sky-300">
-          {buffer || <span className="text-white/30">{hint ?? "gépelj egy nevet…"}</span>}
+          {buffer || (
+            <span className="text-white/30">{hint ?? t("search.hint")}</span>
+          )}
           {active && <span className="ml-0.5 animate-pulse text-sky-400">|</span>}
         </span>
         {buffer && (
           <span className="text-xs text-white/40">
-            {results.length} találat · Enter / 1-9
+            {t("search.results", { n: results.length })}
           </span>
         )}
       </div>
@@ -68,7 +72,9 @@ export default function PokemonSearch({
         results.length ? (
           <MatchList results={results} selectedIndex={selected} onPick={pick} />
         ) : (
-          <p className="text-sm text-white/40">Nincs találat „{buffer}”.</p>
+          <p className="text-sm text-white/40">
+            {t("search.noResults", { q: buffer })}
+          </p>
         )
       ) : (
         // touch fallback grid (mobile / no keyboard)

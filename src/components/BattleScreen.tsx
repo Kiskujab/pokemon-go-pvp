@@ -1,8 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
-import { LEAGUES, type League, type TeamMember } from "../types";
+import { type League, type TeamMember } from "../types";
 import { buildSides, getPokemon, leaguePool, searchPokemon } from "../lib/data";
 import { recommendBestIndex } from "../lib/recommend";
 import { useKeystrokeSearch } from "../hooks/useKeystrokeSearch";
+import { useT } from "../i18n";
+import LanguagePicker from "./LanguagePicker";
 import OpponentBoard from "./OpponentBoard";
 import ShieldAdvice from "./ShieldAdvice";
 import MyTeamBar from "./MyTeamBar";
@@ -28,6 +30,7 @@ export default function BattleScreen({
   onEditTeam,
   onChangeLeague,
 }: Props) {
+  const { t } = useT();
   const pool = useMemo(() => leaguePool(league), [league]);
   const [opponentId, setOpponentId] = useState<string | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -61,26 +64,29 @@ export default function BattleScreen({
     return recommendBestIndex(team.map((m) => buildSides(m, opp)));
   }, [opp, team]);
 
-  const leagueName = LEAGUES.find((l) => l.id === league)?.name ?? league;
+  const leagueName = t(`league.${league}` as "league.great");
 
   return (
     <div className="mx-auto flex min-h-dvh max-w-2xl flex-col gap-3 p-3">
       {/* top bar */}
-      <header className="flex items-center justify-between">
+      <header className="flex items-center justify-between gap-2">
         <button
           type="button"
           onClick={onChangeLeague}
           className="rounded-lg bg-white/5 px-3 py-1.5 text-sm font-semibold hover:bg-white/10"
         >
-          {leagueName} ▾
+          {t("battle.changeLeague", { league: leagueName })}
         </button>
-        <button
-          type="button"
-          onClick={onEditTeam}
-          className="rounded-lg bg-white/5 px-3 py-1.5 text-sm hover:bg-white/10"
-        >
-          Csapat szerkesztése
-        </button>
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={onEditTeam}
+            className="rounded-lg bg-white/5 px-3 py-1.5 text-sm hover:bg-white/10"
+          >
+            {t("team.edit")}
+          </button>
+          <LanguagePicker variant="compact" />
+        </div>
       </header>
 
       {/* keystroke search bar */}
@@ -88,20 +94,22 @@ export default function BattleScreen({
         <div className="flex items-center gap-3">
           <span className="font-mono text-2xl tracking-wider text-sky-300">
             {buffer || (
-              <span className="text-white/30">ellenfél neve…</span>
+              <span className="text-white/30">{t("battle.oppName")}</span>
             )}
             <span className="ml-0.5 animate-pulse text-sky-400">|</span>
           </span>
           <div className="ml-auto flex items-center gap-2">
             {buffer && (
-              <span className="text-xs text-white/40">{results.length} találat</span>
+              <span className="text-xs text-white/40">
+                {t("search.count", { n: results.length })}
+              </span>
             )}
             <button
               type="button"
               onClick={() => setBrowsing((b) => !b)}
               className="rounded-lg bg-white/5 px-2 py-1 text-xs hover:bg-white/10"
             >
-              🔍 böngészés
+              {t("battle.browse")}
             </button>
           </div>
         </div>
@@ -116,7 +124,9 @@ export default function BattleScreen({
               />
             </div>
           ) : (
-            <p className="mt-3 text-sm text-white/40">Nincs találat „{buffer}”.</p>
+            <p className="mt-3 text-sm text-white/40">
+              {t("search.noResults", { q: buffer })}
+            </p>
           )
         ) : (
           browsing && (
@@ -136,10 +146,9 @@ export default function BattleScreen({
           </div>
         ) : (
           <div className="flex h-full min-h-40 flex-col items-center justify-center rounded-2xl border border-dashed border-white/10 p-6 text-center text-white/40">
-            <p className="text-lg">Gépeld az ellenfél nevének elejét</p>
+            <p className="text-lg">{t("battle.empty.title")}</p>
             <p className="mt-1 text-sm">
-              pl. <span className="font-mono text-white/60">gro</span> → Groudon · vagy
-              böngéssz a 🔍 gombbal
+              {t("battle.empty.hint", { ex: "gro", mon: "Groudon" })}
             </p>
           </div>
         )}

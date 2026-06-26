@@ -1,6 +1,7 @@
 import type { Pokemon } from "../types";
 import { getMove } from "../lib/data";
 import { getShieldAdvice } from "../lib/shield";
+import { useT } from "../i18n";
 import { typeColor, textOn } from "../lib/typeColors";
 import ChargedMoveTile from "./ChargedMoveTile";
 import Sprite from "./Sprite";
@@ -15,6 +16,7 @@ interface Props {
 /** Opponent battle board, reference-infographic style: dark card, fast-move
  *  header(s) coloured by type, and a charged-move grid with move counts. */
 export default function OpponentBoard({ opp, activeMyMon }: Props) {
+  const { name } = useT();
   const fastMoves = opp.fastMoves
     .map((id) => getMove(id))
     .filter((m): m is NonNullable<typeof m> => Boolean(m));
@@ -32,7 +34,7 @@ export default function OpponentBoard({ opp, activeMyMon }: Props) {
           className="h-16 w-16 shrink-0 object-contain"
         />
         <div className="min-w-0">
-          <div className="truncate text-xl font-bold">{opp.name}</div>
+          <div className="truncate text-xl font-bold">{name(opp)}</div>
           <div className="mt-1">
             <TypePills types={opp.types} />
           </div>
@@ -50,7 +52,7 @@ export default function OpponentBoard({ opp, activeMyMon }: Props) {
                 className="mb-2 flex items-center justify-between rounded-md px-3 py-1.5 text-sm font-bold uppercase tracking-wide"
                 style={{ background: fbg, color: textOn(fbg) }}
               >
-                <span className="truncate">{fm.nameHu || fm.name}</span>
+                <span className="truncate">{name(fm)}</span>
                 <span className="ml-2 shrink-0 tabular-nums opacity-90">
                   ({fm.turns ?? "?"} , {cap})
                 </span>

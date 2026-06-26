@@ -1,4 +1,5 @@
 import type { PokemonEntry } from "../lib/data";
+import { useT } from "../i18n";
 import Sprite from "./Sprite";
 
 interface Props {
@@ -9,6 +10,7 @@ interface Props {
 
 /** Tappable sprite grid — the touch fallback for the keystroke search. */
 export default function PokemonGrid({ entries, onPick, className }: Props) {
+  const { name } = useT();
   return (
     <div
       className={`grid grid-cols-3 gap-2 sm:grid-cols-4 ${className ?? ""}`}
@@ -26,7 +28,7 @@ export default function PokemonGrid({ entries, onPick, className }: Props) {
             className="h-12 w-12 object-contain"
           />
           <span className="line-clamp-1 text-[11px] text-white/70">
-            {entry.mon.name}
+            {name(entry.mon)}
           </span>
         </button>
       ))}

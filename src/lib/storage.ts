@@ -37,3 +37,12 @@ export function getTeam(league: League): TeamMember[] {
 export function setTeam(league: League, team: TeamMember[]): void {
   write(`team.${league}`, team);
 }
+
+/** The analysis/team-builder roster is just a list of pokemon ids per league. */
+export function getBuilder(league: League): string[] {
+  return read<string[]>(`builder.${league}`, []);
+}
+
+export function setBuilder(league: League, ids: string[]): void {
+  write(`builder.${league}`, ids);
+}

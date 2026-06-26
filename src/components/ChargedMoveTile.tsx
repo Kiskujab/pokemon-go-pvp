@@ -1,7 +1,14 @@
 import type { Move } from "../types";
 import type { ShieldAdvice, ShieldVerdict } from "../lib/shield";
 import { chargeCountDisplay } from "../lib/moveCounts";
+import { useT } from "../i18n";
 import { typeColor, textOn } from "../lib/typeColors";
+
+const VERDICT_KEY: Record<ShieldVerdict, "shield.shield"> = {
+  shield: "shield.shield",
+  consider: "shield.consider" as "shield.shield",
+  no: "shield.no" as "shield.shield",
+};
 
 interface Props {
   move: Move;
@@ -17,6 +24,7 @@ const SHIELD_STYLE: Record<ShieldVerdict, { dot: string; ring: string }> = {
 };
 
 export default function ChargedMoveTile({ move, fastMove, shield }: Props) {
+  const { t, name, typeName } = useT();
   const bg = typeColor(move.type);
   const fg = textOn(bg);
   const { base, marks } = chargeCountDisplay(fastMove, move);
@@ -28,8 +36,8 @@ export default function ChargedMoveTile({ move, fastMove, shield }: Props) {
         sv ? `ring-2 ${sv.ring}` : ""
       }`}
       style={{ background: bg, color: fg }}
-      title={`${move.name} · ${move.type}${
-        shield ? ` · ${shield.label}` : ""
+      title={`${name(move)} · ${typeName(move.type)}${
+        shield ? ` · ${t(VERDICT_KEY[shield.verdict])}` : ""
       }`}
     >
       <div className="flex items-start leading-none">
@@ -42,14 +50,14 @@ export default function ChargedMoveTile({ move, fastMove, shield }: Props) {
         {shield && sv && (
           <span
             className={`ml-auto grid h-4 w-4 place-items-center rounded-full text-[9px] ${sv.dot}`}
-            title={shield.label}
+            title={t(VERDICT_KEY[shield.verdict])}
           >
             🛡
           </span>
         )}
       </div>
       <div className="mt-1 truncate text-[11px] font-bold uppercase leading-tight">
-        {move.nameHu || move.name}
+        {name(move)}
       </div>
     </div>
   );

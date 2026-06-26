@@ -2,7 +2,14 @@ import type { Pokemon } from "../types";
 import type { ShieldVerdict } from "../lib/shield";
 import { getMove } from "../lib/data";
 import { getAggregateShieldAdvice, getShieldAdvice } from "../lib/shield";
+import { useT } from "../i18n";
 import { typeColor } from "../lib/typeColors";
+
+const VERDICT_KEY: Record<ShieldVerdict, "shield.shield"> = {
+  shield: "shield.shield",
+  consider: "shield.consider" as "shield.shield",
+  no: "shield.no" as "shield.shield",
+};
 
 interface Props {
   activeMyMon: Pokemon;
@@ -28,6 +35,7 @@ const fmtMult = (n: number) => `×${n.toFixed(2).replace(/\.?0+$/, "")}`;
 /** Compact shield panel (sits above the board): one big unified verdict for
  *  split-second calls, plus per-move chips side-by-side for detail. */
 export default function ShieldAdvice({ activeMyMon, opp }: Props) {
+  const { t, name } = useT();
   const moves = opp.chargedMoves
     .map((id) => getMove(id))
     .filter((m): m is NonNullable<typeof m> => Boolean(m));
@@ -42,7 +50,7 @@ export default function ShieldAdvice({ activeMyMon, opp }: Props) {
           className={`flex shrink-0 items-baseline gap-2 rounded-xl px-3 py-2 ${BIG_CLASS[overall.verdict]}`}
         >
           <span className="text-lg font-extrabold uppercase leading-none">
-            {overall.label}
+            {t(VERDICT_KEY[overall.verdict])}
           </span>
           <span className="text-xs font-bold tabular-nums opacity-80">
             {fmtMult(overall.multiplier)}
@@ -50,12 +58,12 @@ export default function ShieldAdvice({ activeMyMon, opp }: Props) {
         </div>
         <div className="min-w-0 text-xs leading-tight text-white/55">
           <div className="truncate">
-            <span className="font-semibold text-white/80">{activeMyMon.name}</span>{" "}
-            vs {opp.name}
+            <span className="font-semibold text-white/80">{name(activeMyMon)}</span>{" "}
+            {t("shield.vs")} {name(opp)}
           </div>
           {overall.worstMove && (
             <div className="truncate">
-              legveszélyesebb: {overall.worstMove.nameHu || overall.worstMove.name}
+              {t("shield.mostDangerous", { move: name(overall.worstMove) })}
             </div>
           )}
         </div>
@@ -69,14 +77,14 @@ export default function ShieldAdvice({ activeMyMon, opp }: Props) {
             <div
               key={m.name}
               className={`flex items-center gap-1.5 rounded-lg px-2 py-1 ring-1 ${CHIP_CLASS[advice.verdict]}`}
-              title={`${m.nameHu || m.name} · ${advice.label} (${fmtMult(advice.multiplier)})`}
+              title={`${name(m)} · ${t(VERDICT_KEY[advice.verdict])} (${fmtMult(advice.multiplier)})`}
             >
               <span
                 className="h-2.5 w-2.5 shrink-0 rounded-full"
                 style={{ background: typeColor(m.type) }}
               />
               <span className="min-w-0 flex-1 truncate text-[11px] font-medium">
-                {m.nameHu || m.name}
+                {name(m)}
               </span>
             </div>
           );

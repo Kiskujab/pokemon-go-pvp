@@ -25,3 +25,107 @@ body {
 * {
   -webkit-tap-highlight-color: transparent;
 }
+
+/* ---------------------------------------------------------------------------
+   Animations. Kept as plain CSS keyframes (no JS animation lib) so the bundle
+   stays small and everything runs on the compositor.
+   --------------------------------------------------------------------------- */
+
+@keyframes pogo-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pogo-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pogo-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pogo-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  60% {
+    transform: scale(1.02);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pogo-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes pogo-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Page / element entrance helpers. */
+.animate-fade-up {
+  animation: pogo-fade-up 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.animate-fade-in {
+  animation: pogo-fade-in 0.4s ease both;
+}
+.animate-pop {
+  animation: pogo-pop 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.animate-bob {
+  animation: pogo-bob 2.4s ease-in-out infinite;
+}
+
+/* Animated mesh background used by the menu / loading screen. */
+.pogo-aurora {
+  background: radial-gradient(
+      circle at 20% 20%,
+      rgba(56, 189, 248, 0.16),
+      transparent 45%
+    ),
+    radial-gradient(circle at 80% 30%, rgba(168, 85, 247, 0.16), transparent 45%),
+    radial-gradient(circle at 50% 85%, rgba(251, 191, 36, 0.12), transparent 45%);
+  background-size: 180% 180%;
+  animation: pogo-gradient 14s ease infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-fade-in,
+  .animate-pop,
+  .animate-bob,
+  .pogo-aurora {
+    animation: none;
+  }
+}

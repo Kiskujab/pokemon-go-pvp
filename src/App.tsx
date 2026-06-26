@@ -1,66 +1,30 @@
-import { useState } from "react";
-import type { League, TeamMember } from "./types";
-import {
-  getLeague,
-  getTeam,
-  setLeague as persistLeague,
-  setTeam as persistTeam,
-} from "./lib/storage";
-import LeagueSelect from "./components/LeagueSelect";
-import TeamSetup from "./components/TeamSetup";
-import BattleScreen from "./components/BattleScreen";
+import { useEffect, useState } from "react";
+import LoadingScreen from "./components/LoadingScreen";
+import MainMenu from "./components/MainMenu";
+import PvpFlow from "./components/PvpFlow";
+import AnalysisScreen from "./components/analysis/AnalysisScreen";
 
-type Phase = "league" | "team" | "battle";
-
-function initialPhase(league: League | null): Phase {
-  if (!league) return "league";
-  return getTeam(league).length === 3 ? "battle" : "team";
-}
+export type Mode = "menu" | "pvp" | "analysis";
 
 export default function App() {
-  const [league, setLeagueState] = useState<League | null>(() => getLeague());
-  const [team, setTeamState] = useState<TeamMember[]>(() => {
-    const l = getLeague();
-    return l ? getTeam(l) : [];
-  });
-  const [phase, setPhase] = useState<Phase>(() => initialPhase(getLeague()));
+  // Brief animated splash on first load, then the menu.
+  const [booting, setBooting] = useState(true);
+  const [mode, setMode] = useState<Mode>("menu");
 
-  const chooseLeague = (l: League) => {
-    persistLeague(l);
-    setLeagueState(l);
-    const t = getTeam(l);
-    setTeamState(t);
-    setPhase(t.length === 3 ? "battle" : "team");
-  };
+  useEffect(() => {
+    const id = setTimeout(() => setBooting(false), 1100);
+    return () => clearTimeout(id);
+  }, []);
 
-  const confirmTeam = (t: TeamMember[]) => {
-    if (!league) return;
-    persistTeam(league, t);
-    setTeamState(t);
-    setPhase("battle");
-  };
+  if (booting) return <LoadingScreen />;
 
-  if (phase === "league" || !league) {
-    return <LeagueSelect current={league} onSelect={chooseLeague} />;
-  }
-
-  if (phase === "team") {
-    return (
-      <TeamSetup
-        league={league}
-        initialTeam={team}
-        onConfirm={confirmTeam}
-        onBack={() => setPhase("league")}
-      />
-    );
-  }
+  const toMenu = () => setMode("menu");
 
   return (
-    <BattleScreen
-      league={league}
-      team={team}
-      onEditTeam={() => setPhase("team")}
-      onChangeLeague={() => setPhase("league")}
-    />
+    <div key={mode} className="animate-fade-in">
+      {mode === "menu" && <MainMenu onPick={setMode} />}
+      {mode === "pvp" && <PvpFlow onExit={toMenu} />}
+      {mode === "analysis" && <AnalysisScreen onExit={toMenu} />}
+    </div>
   );
 }

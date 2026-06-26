@@ -1,5 +1,6 @@
 import type { TeamMember } from "../types";
 import { getPokemon } from "../lib/data";
+import { useT } from "../i18n";
 import Sprite from "./Sprite";
 import TypePills from "./TypePills";
 
@@ -19,6 +20,7 @@ export default function MyTeamBar({
   recommendedIndex,
   onSelect,
 }: Props) {
+  const { t, name } = useT();
   return (
     <div className="grid grid-cols-3 gap-2">
       {team.map((member, i) => {
@@ -39,7 +41,7 @@ export default function MyTeamBar({
           >
             {recommended && (
               <span className="absolute -top-2 left-1/2 -translate-x-1/2 rounded-full bg-emerald-500 px-2 py-0.5 text-[10px] font-bold uppercase text-black shadow">
-                ✓ ajánlott
+                {t("battle.recommended")}
               </span>
             )}
             <Sprite
@@ -50,7 +52,7 @@ export default function MyTeamBar({
               }`}
             />
             <span className="line-clamp-1 text-center text-xs font-semibold">
-              {mon.name}
+              {name(mon)}
             </span>
             <TypePills types={mon.types} size="xs" />
           </button>

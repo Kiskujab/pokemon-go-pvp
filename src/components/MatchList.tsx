@@ -1,4 +1,5 @@
 import type { PokemonEntry } from "../lib/data";
+import { useT } from "../i18n";
 import Sprite from "./Sprite";
 import TypePills from "./TypePills";
 
@@ -11,6 +12,7 @@ interface Props {
 /** Shared result list for the keystroke matcher: sprite + name + types, with
  *  the active row highlighted and a 1-9 number hint for quick selection. */
 export default function MatchList({ results, selectedIndex, onPick }: Props) {
+  const { name } = useT();
   return (
     <ul className="flex flex-col gap-1">
       {results.map((entry, i) => {
@@ -41,7 +43,7 @@ export default function MatchList({ results, selectedIndex, onPick }: Props) {
                 className="h-9 w-9 shrink-0 object-contain"
               />
               <span className="min-w-0 flex-1 truncate font-semibold">
-                {entry.mon.name}
+                {name(entry.mon)}
               </span>
               <TypePills types={entry.mon.types} size="xs" />
             </button>

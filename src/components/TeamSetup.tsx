@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
-import { LEAGUES, type League, type TeamMember } from "../types";
+import { type League, type TeamMember } from "../types";
 import { defaultLoadout, getMove, getPokemon, leaguePool } from "../lib/data";
+import { useT } from "../i18n";
 import { textOn, typeColor } from "../lib/typeColors";
 import PokemonSearch from "./PokemonSearch";
 import Sprite from "./Sprite";
@@ -22,6 +23,7 @@ function MoveChip({
   selected: boolean;
   onClick: () => void;
 }) {
+  const { name } = useT();
   const m = getMove(moveId);
   if (!m) return null;
   const bg = typeColor(m.type);
@@ -34,7 +36,7 @@ function MoveChip({
       }`}
       style={selected ? { background: bg, color: textOn(bg) } : undefined}
     >
-      {m.nameHu || m.name}
+      {name(m)}
     </button>
   );
 }
@@ -47,9 +49,10 @@ export default function TeamSetup({
   onConfirm,
   onBack,
 }: Props) {
+  const { t, name } = useT();
   const pool = useMemo(() => leaguePool(league), [league]);
   const [team, setTeam] = useState<TeamMember[]>(initialTeam.slice(0, 3));
-  const leagueName = LEAGUES.find((l) => l.id === league)?.name ?? league;
+  const leagueName = t(`league.${league}` as "league.great");
 
   const add = (id: string) =>
     setTeam((t) => {
@@ -86,10 +89,10 @@ export default function TeamSetup({
           onClick={onBack}
           className="rounded-lg bg-white/5 px-3 py-1.5 text-sm hover:bg-white/10"
         >
-          ← Liga
+          ← {t("team.toLeague")}
         </button>
         <div>
-          <h1 className="text-xl font-bold">Csapat</h1>
+          <h1 className="text-xl font-bold">{t("team.title")}</h1>
           <p className="text-sm text-white/50">{leagueName} · {team.length}/3</p>
         </div>
       </header>
@@ -110,7 +113,7 @@ export default function TeamSetup({
                   className="h-12 w-12 object-contain"
                 />
                 <div className="min-w-0 flex-1">
-                  <div className="truncate font-bold">{mon.name}</div>
+                  <div className="truncate font-bold">{name(mon)}</div>
                   <TypePills types={mon.types} size="xs" />
                 </div>
                 <button
@@ -118,14 +121,14 @@ export default function TeamSetup({
                   onClick={() => remove(i)}
                   className="rounded-lg bg-white/5 px-2 py-1 text-xs text-white/60 hover:bg-red-500/20 hover:text-red-300"
                 >
-                  Törlés
+                  {t("common.delete")}
                 </button>
               </div>
 
               <div className="mt-3 space-y-2">
                 <div>
                   <div className="mb-1 text-[11px] uppercase tracking-wide text-white/40">
-                    Gyors mozdulat
+                    {t("team.fastMove")}
                   </div>
                   <div className="flex flex-wrap gap-1.5">
                     {mon.fastMoves.map((mv) => (
@@ -140,7 +143,7 @@ export default function TeamSetup({
                 </div>
                 <div>
                   <div className="mb-1 text-[11px] uppercase tracking-wide text-white/40">
-                    Töltött mozdulatok (max 2)
+                    {t("team.chargedMoves")}
                   </div>
                   <div className="flex flex-wrap gap-1.5">
                     {mon.chargedMoves.map((mv) => (
@@ -162,14 +165,14 @@ export default function TeamSetup({
       {!full && (
         <div className="rounded-2xl border border-dashed border-white/15 bg-black/20 p-3">
           <div className="mb-2 text-sm text-white/60">
-            Adj hozzá pokémont ({team.length}/3)
+            {t("team.add", { n: team.length })}
           </div>
           <PokemonSearch
             pool={pool}
             onPick={add}
             active={!full}
             exclude={excluded}
-            hint="gépelj egy nevet…"
+            hint={t("search.hint")}
           />
         </div>
       )}
@@ -181,7 +184,7 @@ export default function TeamSetup({
           onClick={() => onConfirm(team)}
           className="w-full rounded-xl bg-sky-500 py-3 font-bold text-black transition enabled:hover:bg-sky-400 disabled:opacity-30"
         >
-          {full ? "Csatába →" : `Még ${3 - team.length} pokémon kell`}
+          {full ? t("team.toBattle") : t("team.needMore", { n: 3 - team.length })}
         </button>
       </div>
     </div>
