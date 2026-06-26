@@ -1,0 +1,1794 @@
+{
+  "ACID": {
+    "name": "Acid",
+    "nameHu": "Acid",
+    "type": "poison",
+    "category": "fast",
+    "power": 6,
+    "energyGain": 8,
+    "turns": 2
+  },
+  "ACROBATICS": {
+    "name": "Acrobatics",
+    "nameHu": "Acrobatics",
+    "type": "flying",
+    "category": "charged",
+    "power": 110,
+    "energyCost": 55
+  },
+  "AEGISLASH_CHARGE_AIR_SLASH": {
+    "name": "Air Slash",
+    "nameHu": "Air Slash",
+    "type": "flying",
+    "category": "fast",
+    "power": 0,
+    "energyGain": 6,
+    "turns": 3
+  },
+  "AEGISLASH_CHARGE_PSYCHO_CUT": {
+    "name": "Psycho Cut",
+    "nameHu": "Psycho Cut",
+    "type": "psychic",
+    "category": "fast",
+    "power": 0,
+    "energyGain": 6,
+    "turns": 2
+  },
+  "AERIAL_ACE": {
+    "name": "Aerial Ace",
+    "nameHu": "Aerial Ace",
+    "type": "flying",
+    "category": "charged",
+    "power": 60,
+    "energyCost": 45
+  },
+  "AEROBLAST": {
+    "name": "Aeroblast",
+    "nameHu": "Aeroblast",
+    "type": "flying",
+    "category": "charged",
+    "power": 170,
+    "energyCost": 75
+  },
+  "AIR_CUTTER": {
+    "name": "Air Cutter",
+    "nameHu": "Air Cutter",
+    "type": "flying",
+    "category": "charged",
+    "power": 45,
+    "energyCost": 35
+  },
+  "AIR_SLASH": {
+    "name": "Air Slash",
+    "nameHu": "Air Slash",
+    "type": "flying",
+    "category": "fast",
+    "power": 9,
+    "energyGain": 9,
+    "turns": 3
+  },
+  "ANCIENT_POWER": {
+    "name": "Ancient Power",
+    "nameHu": "Ancient Power",
+    "type": "rock",
+    "category": "charged",
+    "power": 60,
+    "energyCost": 45
+  },
+  "AQUA_JET": {
+    "name": "Aqua Jet",
+    "nameHu": "Aqua Jet",
+    "type": "water",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 40
+  },
+  "AQUA_TAIL": {
+    "name": "Aqua Tail",
+    "nameHu": "Aqua Tail",
+    "type": "water",
+    "category": "charged",
+    "power": 55,
+    "energyCost": 35
+  },
+  "ASTONISH": {
+    "name": "Astonish",
+    "nameHu": "Astonish",
+    "type": "ghost",
+    "category": "fast",
+    "power": 12,
+    "energyGain": 10,
+    "turns": 3
+  },
+  "AURA_SPHERE": {
+    "name": "Aura Sphere",
+    "nameHu": "Aura Sphere",
+    "type": "fighting",
+    "category": "charged",
+    "power": 80,
+    "energyCost": 40
+  },
+  "AURORA_BEAM": {
+    "name": "Aurora Beam",
+    "nameHu": "Aurora Beam",
+    "type": "ice",
+    "category": "charged",
+    "power": 80,
+    "energyCost": 60
+  },
+  "AVALANCHE": {
+    "name": "Avalanche",
+    "nameHu": "Avalanche",
+    "type": "ice",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 45
+  },
+  "BEAK_BLAST": {
+    "name": "Beak Blast",
+    "nameHu": "Beak Blast",
+    "type": "flying",
+    "category": "charged",
+    "power": 110,
+    "energyCost": 55
+  },
+  "BEHEMOTH_BASH": {
+    "name": "Behemoth Bash",
+    "nameHu": "Behemoth Bash",
+    "type": "steel",
+    "category": "charged",
+    "power": 80,
+    "energyCost": 45
+  },
+  "BEHEMOTH_BLADE": {
+    "name": "Behemoth Blade",
+    "nameHu": "Behemoth Blade",
+    "type": "steel",
+    "category": "charged",
+    "power": 100,
+    "energyCost": 55
+  },
+  "BITE": {
+    "name": "Bite",
+    "nameHu": "Bite",
+    "type": "dark",
+    "category": "fast",
+    "power": 4,
+    "energyGain": 2,
+    "turns": 1
+  },
+  "BLIZZARD": {
+    "name": "Blizzard",
+    "nameHu": "Blizzard",
+    "type": "ice",
+    "category": "charged",
+    "power": 140,
+    "energyCost": 75
+  },
+  "BODY_SLAM": {
+    "name": "Body Slam",
+    "nameHu": "Body Slam",
+    "type": "normal",
+    "category": "charged",
+    "power": 55,
+    "energyCost": 35
+  },
+  "BONE_CLUB": {
+    "name": "Bone Club",
+    "nameHu": "Bone Club",
+    "type": "ground",
+    "category": "charged",
+    "power": 55,
+    "energyCost": 35
+  },
+  "BRAVE_BIRD": {
+    "name": "Brave Bird",
+    "nameHu": "Brave Bird",
+    "type": "flying",
+    "category": "charged",
+    "power": 130,
+    "energyCost": 55
+  },
+  "BRICK_BREAK": {
+    "name": "Brick Break",
+    "nameHu": "Brick Break",
+    "type": "fighting",
+    "category": "charged",
+    "power": 50,
+    "energyCost": 40
+  },
+  "BRUTAL_SWING": {
+    "name": "Brutal Swing",
+    "nameHu": "Brutal Swing",
+    "type": "dark",
+    "category": "charged",
+    "power": 55,
+    "energyCost": 35
+  },
+  "BUBBLE": {
+    "name": "Bubble",
+    "nameHu": "Bubble",
+    "type": "water",
+    "category": "fast",
+    "power": 8,
+    "energyGain": 11,
+    "turns": 3
+  },
+  "BUBBLE_BEAM": {
+    "name": "Bubble Beam",
+    "nameHu": "Bubble Beam",
+    "type": "water",
+    "category": "charged",
+    "power": 25,
+    "energyCost": 40
+  },
+  "BUG_BITE": {
+    "name": "Bug Bite",
+    "nameHu": "Bug Bite",
+    "type": "bug",
+    "category": "fast",
+    "power": 4,
+    "energyGain": 3,
+    "turns": 1
+  },
+  "BULLDOZE": {
+    "name": "Bulldoze",
+    "nameHu": "Bulldoze",
+    "type": "ground",
+    "category": "charged",
+    "power": 45,
+    "energyCost": 45
+  },
+  "BULLET_PUNCH": {
+    "name": "Bullet Punch",
+    "nameHu": "Bullet Punch",
+    "type": "steel",
+    "category": "fast",
+    "power": 7,
+    "energyGain": 7,
+    "turns": 2
+  },
+  "BULLET_SEED": {
+    "name": "Bullet Seed",
+    "nameHu": "Bullet Seed",
+    "type": "grass",
+    "category": "fast",
+    "power": 5,
+    "energyGain": 13,
+    "turns": 3
+  },
+  "CHARGE_BEAM": {
+    "name": "Charge Beam",
+    "nameHu": "Charge Beam",
+    "type": "electric",
+    "category": "fast",
+    "power": 5,
+    "energyGain": 11,
+    "turns": 3
+  },
+  "CHARM": {
+    "name": "Charm",
+    "nameHu": "Charm",
+    "type": "fairy",
+    "category": "fast",
+    "power": 12,
+    "energyGain": 8,
+    "turns": 3
+  },
+  "CHILLING_WATER": {
+    "name": "Chilling Water",
+    "nameHu": "Chilling Water",
+    "type": "water",
+    "category": "charged",
+    "power": 60,
+    "energyCost": 45
+  },
+  "CLOSE_COMBAT": {
+    "name": "Close Combat",
+    "nameHu": "Close Combat",
+    "type": "fighting",
+    "category": "charged",
+    "power": 100,
+    "energyCost": 45
+  },
+  "CONFUSION": {
+    "name": "Confusion",
+    "nameHu": "Confusion",
+    "type": "psychic",
+    "category": "fast",
+    "power": 16,
+    "energyGain": 14,
+    "turns": 4
+  },
+  "COUNTER": {
+    "name": "Counter",
+    "nameHu": "Counter",
+    "type": "fighting",
+    "category": "fast",
+    "power": 8,
+    "energyGain": 6,
+    "turns": 2
+  },
+  "CRUNCH": {
+    "name": "Crunch",
+    "nameHu": "Crunch",
+    "type": "dark",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 45
+  },
+  "DARK_PULSE": {
+    "name": "Dark Pulse",
+    "nameHu": "Dark Pulse",
+    "type": "dark",
+    "category": "charged",
+    "power": 80,
+    "energyCost": 50
+  },
+  "DAZZLING_GLEAM": {
+    "name": "Dazzling Gleam",
+    "nameHu": "Dazzling Gleam",
+    "type": "fairy",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 55
+  },
+  "DIG": {
+    "name": "Dig",
+    "nameHu": "Dig",
+    "type": "ground",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 50
+  },
+  "DISARMING_VOICE": {
+    "name": "Disarming Voice",
+    "nameHu": "Disarming Voice",
+    "type": "fairy",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 45
+  },
+  "DISCHARGE": {
+    "name": "Discharge",
+    "nameHu": "Discharge",
+    "type": "electric",
+    "category": "charged",
+    "power": 55,
+    "energyCost": 40
+  },
+  "DOOM_DESIRE": {
+    "name": "Doom Desire",
+    "nameHu": "Doom Desire",
+    "type": "steel",
+    "category": "charged",
+    "power": 80,
+    "energyCost": 40
+  },
+  "DOUBLE_IRON_BASH": {
+    "name": "Double Iron Bash",
+    "nameHu": "Double Iron Bash",
+    "type": "steel",
+    "category": "charged",
+    "power": 55,
+    "energyCost": 35
+  },
+  "DOUBLE_KICK": {
+    "name": "Double Kick",
+    "nameHu": "Double Kick",
+    "type": "fighting",
+    "category": "fast",
+    "power": 8,
+    "energyGain": 12,
+    "turns": 3
+  },
+  "DRACO_METEOR": {
+    "name": "Draco Meteor",
+    "nameHu": "Draco Meteor",
+    "type": "dragon",
+    "category": "charged",
+    "power": 150,
+    "energyCost": 65
+  },
+  "DRAGON_BREATH": {
+    "name": "Dragon Breath",
+    "nameHu": "Dragon Breath",
+    "type": "dragon",
+    "category": "fast",
+    "power": 3,
+    "energyGain": 4,
+    "turns": 1
+  },
+  "DRAGON_CLAW": {
+    "name": "Dragon Claw",
+    "nameHu": "Dragon Claw",
+    "type": "dragon",
+    "category": "charged",
+    "power": 80,
+    "energyCost": 50
+  },
+  "DRAGON_ENERGY": {
+    "name": "Dragon Energy",
+    "nameHu": "Dragon Energy",
+    "type": "dragon",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 45
+  },
+  "DRAGON_PULSE": {
+    "name": "Dragon Pulse",
+    "nameHu": "Dragon Pulse",
+    "type": "dragon",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 55
+  },
+  "DRAGON_TAIL": {
+    "name": "Dragon Tail",
+    "nameHu": "Dragon Tail",
+    "type": "dragon",
+    "category": "fast",
+    "power": 9,
+    "energyGain": 12,
+    "turns": 3
+  },
+  "DRAINING_KISS": {
+    "name": "Draining Kiss",
+    "nameHu": "Draining Kiss",
+    "type": "fairy",
+    "category": "charged",
+    "power": 60,
+    "energyCost": 55
+  },
+  "DRAIN_PUNCH": {
+    "name": "Drain Punch",
+    "nameHu": "Drain Punch",
+    "type": "fighting",
+    "category": "charged",
+    "power": 40,
+    "energyCost": 40
+  },
+  "DRILL_PECK": {
+    "name": "Drill Peck",
+    "nameHu": "Drill Peck",
+    "type": "flying",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 40
+  },
+  "DRILL_RUN": {
+    "name": "Drill Run",
+    "nameHu": "Drill Run",
+    "type": "ground",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 40
+  },
+  "DYNAMAX_CANNON": {
+    "name": "Dynamax Cannon",
+    "nameHu": "Dynamax Cannon",
+    "type": "dragon",
+    "category": "charged",
+    "power": 80,
+    "energyCost": 45
+  },
+  "DYNAMIC_PUNCH": {
+    "name": "Dynamic Punch",
+    "nameHu": "Dynamic Punch",
+    "type": "fighting",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 45
+  },
+  "EARTHQUAKE": {
+    "name": "Earthquake",
+    "nameHu": "Earthquake",
+    "type": "ground",
+    "category": "charged",
+    "power": 120,
+    "energyCost": 65
+  },
+  "EARTH_POWER": {
+    "name": "Earth Power",
+    "nameHu": "Earth Power",
+    "type": "ground",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 50
+  },
+  "EMBER": {
+    "name": "Ember",
+    "nameHu": "Ember",
+    "type": "fire",
+    "category": "fast",
+    "power": 4,
+    "energyGain": 9,
+    "turns": 2
+  },
+  "ENERGY_BALL": {
+    "name": "Energy Ball",
+    "nameHu": "Energy Ball",
+    "type": "grass",
+    "category": "charged",
+    "power": 80,
+    "energyCost": 45
+  },
+  "EXTRASENSORY": {
+    "name": "Extrasensory",
+    "nameHu": "Extrasensory",
+    "type": "psychic",
+    "category": "fast",
+    "power": 8,
+    "energyGain": 10,
+    "turns": 3
+  },
+  "FAIRY_WIND": {
+    "name": "Fairy Wind",
+    "nameHu": "Fairy Wind",
+    "type": "fairy",
+    "category": "fast",
+    "power": 4,
+    "energyGain": 9,
+    "turns": 2
+  },
+  "FEINT_ATTACK": {
+    "name": "Feint Attack",
+    "nameHu": "Feint Attack",
+    "type": "dark",
+    "category": "fast",
+    "power": 6,
+    "energyGain": 6,
+    "turns": 2
+  },
+  "FELL_STINGER": {
+    "name": "Fell Stinger",
+    "nameHu": "Fell Stinger",
+    "type": "bug",
+    "category": "charged",
+    "power": 20,
+    "energyCost": 35
+  },
+  "FIRE_BLAST": {
+    "name": "Fire Blast",
+    "nameHu": "Fire Blast",
+    "type": "fire",
+    "category": "charged",
+    "power": 140,
+    "energyCost": 80
+  },
+  "FIRE_FANG": {
+    "name": "Fire Fang",
+    "nameHu": "Fire Fang",
+    "type": "fire",
+    "category": "fast",
+    "power": 8,
+    "energyGain": 6,
+    "turns": 2
+  },
+  "FIRE_PUNCH": {
+    "name": "Fire Punch",
+    "nameHu": "Fire Punch",
+    "type": "fire",
+    "category": "charged",
+    "power": 60,
+    "energyCost": 40
+  },
+  "FIRE_SPIN": {
+    "name": "Fire Spin",
+    "nameHu": "Fire Spin",
+    "type": "fire",
+    "category": "fast",
+    "power": 11,
+    "energyGain": 10,
+    "turns": 3
+  },
+  "FLAMETHROWER": {
+    "name": "Flamethrower",
+    "nameHu": "Flamethrower",
+    "type": "fire",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 55
+  },
+  "FLAME_CHARGE": {
+    "name": "Flame Charge",
+    "nameHu": "Flame Charge",
+    "type": "fire",
+    "category": "charged",
+    "power": 65,
+    "energyCost": 50
+  },
+  "FLASH_CANNON": {
+    "name": "Flash Cannon",
+    "nameHu": "Flash Cannon",
+    "type": "steel",
+    "category": "charged",
+    "power": 110,
+    "energyCost": 65
+  },
+  "FLY": {
+    "name": "Fly",
+    "nameHu": "Fly",
+    "type": "flying",
+    "category": "charged",
+    "power": 80,
+    "energyCost": 45
+  },
+  "FOCUS_BLAST": {
+    "name": "Focus Blast",
+    "nameHu": "Focus Blast",
+    "type": "fighting",
+    "category": "charged",
+    "power": 150,
+    "energyCost": 75
+  },
+  "FOUL_PLAY": {
+    "name": "Foul Play",
+    "nameHu": "Foul Play",
+    "type": "dark",
+    "category": "charged",
+    "power": 65,
+    "energyCost": 40
+  },
+  "FREEZE_SHOCK": {
+    "name": "Freeze Shock",
+    "nameHu": "Freeze Shock",
+    "type": "ice",
+    "category": "charged",
+    "power": 120,
+    "energyCost": 60
+  },
+  "FROST_BREATH": {
+    "name": "Frost Breath",
+    "nameHu": "Frost Breath",
+    "type": "ice",
+    "category": "fast",
+    "power": 7,
+    "energyGain": 5,
+    "turns": 2
+  },
+  "FURY_CUTTER": {
+    "name": "Fury Cutter",
+    "nameHu": "Fury Cutter",
+    "type": "bug",
+    "category": "fast",
+    "power": 3,
+    "energyGain": 4,
+    "turns": 1
+  },
+  "FUSION_BOLT": {
+    "name": "Fusion Bolt",
+    "nameHu": "Fusion Bolt",
+    "type": "electric",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 45
+  },
+  "FUSION_FLARE": {
+    "name": "Fusion Flare",
+    "nameHu": "Fusion Flare",
+    "type": "fire",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 45
+  },
+  "FUTURE_SIGHT": {
+    "name": "Future Sight",
+    "nameHu": "Future Sight",
+    "type": "psychic",
+    "category": "charged",
+    "power": 110,
+    "energyCost": 65
+  },
+  "GEOMANCY": {
+    "name": "Geomancy",
+    "nameHu": "Geomancy",
+    "type": "fairy",
+    "category": "fast",
+    "power": 8,
+    "energyGain": 13,
+    "turns": 3
+  },
+  "GIGATON_HAMMER": {
+    "name": "Gigaton Hammer",
+    "nameHu": "Gigaton Hammer",
+    "type": "steel",
+    "category": "charged",
+    "power": 130,
+    "energyCost": 60
+  },
+  "GIGA_IMPACT": {
+    "name": "Giga Impact",
+    "nameHu": "Giga Impact",
+    "type": "normal",
+    "category": "charged",
+    "power": 150,
+    "energyCost": 80
+  },
+  "GLACIATE": {
+    "name": "Glaciate",
+    "nameHu": "Glaciate",
+    "type": "ice",
+    "category": "charged",
+    "power": 60,
+    "energyCost": 40
+  },
+  "GLAIVE_RUSH": {
+    "name": "Glaive Rush",
+    "nameHu": "Glaive Rush",
+    "type": "dragon",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 40
+  },
+  "GRASS_KNOT": {
+    "name": "Grass Knot",
+    "nameHu": "Grass Knot",
+    "type": "grass",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 50
+  },
+  "GUST": {
+    "name": "Gust",
+    "nameHu": "Gust",
+    "type": "flying",
+    "category": "fast",
+    "power": 16,
+    "energyGain": 14,
+    "turns": 4
+  },
+  "GYRO_BALL": {
+    "name": "Gyro Ball",
+    "nameHu": "Gyro Ball",
+    "type": "steel",
+    "category": "charged",
+    "power": 80,
+    "energyCost": 50
+  },
+  "HEAVY_SLAM": {
+    "name": "Heavy Slam",
+    "nameHu": "Heavy Slam",
+    "type": "steel",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 50
+  },
+  "HEX": {
+    "name": "Hex",
+    "nameHu": "Hex",
+    "type": "ghost",
+    "category": "fast",
+    "power": 7,
+    "energyGain": 13,
+    "turns": 3
+  },
+  "HIDDEN_POWER_GROUND": {
+    "name": "Hidden Power (Ground)",
+    "nameHu": "Hidden Power (Ground)",
+    "type": "ground",
+    "category": "fast",
+    "power": 9,
+    "energyGain": 8,
+    "turns": 3
+  },
+  "HURRICANE": {
+    "name": "Hurricane",
+    "nameHu": "Hurricane",
+    "type": "flying",
+    "category": "charged",
+    "power": 110,
+    "energyCost": 60
+  },
+  "HYDRO_CANNON": {
+    "name": "Hydro Cannon",
+    "nameHu": "Hydro Cannon",
+    "type": "water",
+    "category": "charged",
+    "power": 80,
+    "energyCost": 40
+  },
+  "HYDRO_PUMP": {
+    "name": "Hydro Pump",
+    "nameHu": "Hydro Pump",
+    "type": "water",
+    "category": "charged",
+    "power": 130,
+    "energyCost": 75
+  },
+  "HYPER_BEAM": {
+    "name": "Hyper Beam",
+    "nameHu": "Hyper Beam",
+    "type": "normal",
+    "category": "charged",
+    "power": 150,
+    "energyCost": 80
+  },
+  "ICE_BEAM": {
+    "name": "Ice Beam",
+    "nameHu": "Ice Beam",
+    "type": "ice",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 55
+  },
+  "ICE_BURN": {
+    "name": "Ice Burn",
+    "nameHu": "Ice Burn",
+    "type": "ice",
+    "category": "charged",
+    "power": 120,
+    "energyCost": 60
+  },
+  "ICE_FANG": {
+    "name": "Ice Fang",
+    "nameHu": "Ice Fang",
+    "type": "ice",
+    "category": "fast",
+    "power": 8,
+    "energyGain": 6,
+    "turns": 2
+  },
+  "ICE_PUNCH": {
+    "name": "Ice Punch",
+    "nameHu": "Ice Punch",
+    "type": "ice",
+    "category": "charged",
+    "power": 60,
+    "energyCost": 40
+  },
+  "ICE_SHARD": {
+    "name": "Ice Shard",
+    "nameHu": "Ice Shard",
+    "type": "ice",
+    "category": "fast",
+    "power": 9,
+    "energyGain": 10,
+    "turns": 3
+  },
+  "ICICLE_SPEAR": {
+    "name": "Icicle Spear",
+    "nameHu": "Icicle Spear",
+    "type": "ice",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 40
+  },
+  "ICY_WIND": {
+    "name": "Icy Wind",
+    "nameHu": "Icy Wind",
+    "type": "ice",
+    "category": "charged",
+    "power": 60,
+    "energyCost": 45
+  },
+  "INCINERATE": {
+    "name": "Incinerate",
+    "nameHu": "Incinerate",
+    "type": "fire",
+    "category": "fast",
+    "power": 20,
+    "energyGain": 20,
+    "turns": 5
+  },
+  "IRON_HEAD": {
+    "name": "Iron Head",
+    "nameHu": "Iron Head",
+    "type": "steel",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 50
+  },
+  "IRON_TAIL": {
+    "name": "Iron Tail",
+    "nameHu": "Iron Tail",
+    "type": "steel",
+    "category": "fast",
+    "power": 10,
+    "energyGain": 7,
+    "turns": 3
+  },
+  "LAST_RESORT": {
+    "name": "Last Resort",
+    "nameHu": "Last Resort",
+    "type": "normal",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 55
+  },
+  "LEAF_BLADE": {
+    "name": "Leaf Blade",
+    "nameHu": "Leaf Blade",
+    "type": "grass",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 35
+  },
+  "LICK": {
+    "name": "Lick",
+    "nameHu": "Lick",
+    "type": "ghost",
+    "category": "fast",
+    "power": 3,
+    "energyGain": 3,
+    "turns": 1
+  },
+  "LIQUIDATION": {
+    "name": "Liquidation",
+    "nameHu": "Liquidation",
+    "type": "water",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 45
+  },
+  "LOCK_ON": {
+    "name": "Lock On",
+    "nameHu": "Lock On",
+    "type": "normal",
+    "category": "fast",
+    "power": 1,
+    "energyGain": 5,
+    "turns": 1
+  },
+  "LOW_KICK": {
+    "name": "Low Kick",
+    "nameHu": "Low Kick",
+    "type": "fighting",
+    "category": "fast",
+    "power": 5,
+    "energyGain": 8,
+    "turns": 2
+  },
+  "LUSTER_PURGE": {
+    "name": "Luster Purge",
+    "nameHu": "Luster Purge",
+    "type": "psychic",
+    "category": "charged",
+    "power": 120,
+    "energyCost": 60
+  },
+  "MAGMA_STORM": {
+    "name": "Magma Storm",
+    "nameHu": "Magma Storm",
+    "type": "fire",
+    "category": "charged",
+    "power": 65,
+    "energyCost": 40
+  },
+  "MEGAHORN": {
+    "name": "Megahorn",
+    "nameHu": "Megahorn",
+    "type": "bug",
+    "category": "charged",
+    "power": 110,
+    "energyCost": 55
+  },
+  "METAL_CLAW": {
+    "name": "Metal Claw",
+    "nameHu": "Metal Claw",
+    "type": "steel",
+    "category": "fast",
+    "power": 5,
+    "energyGain": 7,
+    "turns": 2
+  },
+  "METAL_SOUND": {
+    "name": "Metal Sound",
+    "nameHu": "Metal Sound",
+    "type": "steel",
+    "category": "fast",
+    "power": 5,
+    "energyGain": 8,
+    "turns": 2
+  },
+  "METEOR_MASH": {
+    "name": "Meteor Mash",
+    "nameHu": "Meteor Mash",
+    "type": "steel",
+    "category": "charged",
+    "power": 100,
+    "energyCost": 45
+  },
+  "MIRROR_SHOT": {
+    "name": "Mirror Shot",
+    "nameHu": "Mirror Shot",
+    "type": "steel",
+    "category": "charged",
+    "power": 35,
+    "energyCost": 35
+  },
+  "MIST_BALL": {
+    "name": "Mist Ball",
+    "nameHu": "Mist Ball",
+    "type": "psychic",
+    "category": "charged",
+    "power": 120,
+    "energyCost": 60
+  },
+  "MOONBLAST": {
+    "name": "Moonblast",
+    "nameHu": "Moonblast",
+    "type": "fairy",
+    "category": "charged",
+    "power": 110,
+    "energyCost": 60
+  },
+  "MOONGEIST_BEAM": {
+    "name": "Moongeist Beam",
+    "nameHu": "Moongeist Beam",
+    "type": "ghost",
+    "category": "charged",
+    "power": 135,
+    "energyCost": 65
+  },
+  "MUDDY_WATER": {
+    "name": "Muddy Water",
+    "nameHu": "Muddy Water",
+    "type": "water",
+    "category": "charged",
+    "power": 35,
+    "energyCost": 35
+  },
+  "MUD_BOMB": {
+    "name": "Mud Bomb",
+    "nameHu": "Mud Bomb",
+    "type": "ground",
+    "category": "charged",
+    "power": 65,
+    "energyCost": 45
+  },
+  "MUD_SHOT": {
+    "name": "Mud Shot",
+    "nameHu": "Mud Shot",
+    "type": "ground",
+    "category": "fast",
+    "power": 3,
+    "energyGain": 9,
+    "turns": 2
+  },
+  "MUD_SLAP": {
+    "name": "Mud Slap",
+    "nameHu": "Mud Slap",
+    "type": "ground",
+    "category": "fast",
+    "power": 11,
+    "energyGain": 10,
+    "turns": 3
+  },
+  "NATURES_MADNESS": {
+    "name": "Nature's Madness",
+    "nameHu": "Nature's Madness",
+    "type": "fairy",
+    "category": "charged",
+    "power": 80,
+    "energyCost": 50
+  },
+  "NIGHT_SHADE": {
+    "name": "Night Shade",
+    "nameHu": "Night Shade",
+    "type": "ghost",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 45
+  },
+  "OBLIVION_WING": {
+    "name": "Oblivion Wing",
+    "nameHu": "Oblivion Wing",
+    "type": "flying",
+    "category": "charged",
+    "power": 85,
+    "energyCost": 50
+  },
+  "OMINOUS_WIND": {
+    "name": "Ominous Wind",
+    "nameHu": "Ominous Wind",
+    "type": "ghost",
+    "category": "charged",
+    "power": 45,
+    "energyCost": 45
+  },
+  "ORIGIN_PULSE": {
+    "name": "Origin Pulse",
+    "nameHu": "Origin Pulse",
+    "type": "water",
+    "category": "charged",
+    "power": 130,
+    "energyCost": 60
+  },
+  "OUTRAGE": {
+    "name": "Outrage",
+    "nameHu": "Outrage",
+    "type": "dragon",
+    "category": "charged",
+    "power": 110,
+    "energyCost": 60
+  },
+  "OVERHEAT": {
+    "name": "Overheat",
+    "nameHu": "Overheat",
+    "type": "fire",
+    "category": "charged",
+    "power": 130,
+    "energyCost": 55
+  },
+  "PARABOLIC_CHARGE": {
+    "name": "Parabolic Charge",
+    "nameHu": "Parabolic Charge",
+    "type": "electric",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 50
+  },
+  "PAYBACK": {
+    "name": "Payback",
+    "nameHu": "Payback",
+    "type": "dark",
+    "category": "charged",
+    "power": 110,
+    "energyCost": 60
+  },
+  "PECK": {
+    "name": "Peck",
+    "nameHu": "Peck",
+    "type": "flying",
+    "category": "fast",
+    "power": 6,
+    "energyGain": 8,
+    "turns": 2
+  },
+  "PLAY_ROUGH": {
+    "name": "Play Rough",
+    "nameHu": "Play Rough",
+    "type": "fairy",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 60
+  },
+  "POISON_JAB": {
+    "name": "Poison Jab",
+    "nameHu": "Poison Jab",
+    "type": "poison",
+    "category": "fast",
+    "power": 7,
+    "energyGain": 7,
+    "turns": 2
+  },
+  "POISON_STING": {
+    "name": "Poison Sting",
+    "nameHu": "Poison Sting",
+    "type": "poison",
+    "category": "fast",
+    "power": 4,
+    "energyGain": 9,
+    "turns": 2
+  },
+  "POLTERGEIST": {
+    "name": "Poltergeist",
+    "nameHu": "Poltergeist",
+    "type": "ghost",
+    "category": "charged",
+    "power": 150,
+    "energyCost": 75
+  },
+  "POWDER_SNOW": {
+    "name": "Powder Snow",
+    "nameHu": "Powder Snow",
+    "type": "ice",
+    "category": "fast",
+    "power": 6,
+    "energyGain": 8,
+    "turns": 2
+  },
+  "POWER_GEM": {
+    "name": "Power Gem",
+    "nameHu": "Power Gem",
+    "type": "rock",
+    "category": "charged",
+    "power": 85,
+    "energyCost": 50
+  },
+  "POWER_UP_PUNCH": {
+    "name": "Power-Up Punch",
+    "nameHu": "Power-Up Punch",
+    "type": "fighting",
+    "category": "charged",
+    "power": 20,
+    "energyCost": 35
+  },
+  "POWER_WHIP": {
+    "name": "Power Whip",
+    "nameHu": "Power Whip",
+    "type": "grass",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 50
+  },
+  "PRECIPICE_BLADES": {
+    "name": "Precipice Blades",
+    "nameHu": "Precipice Blades",
+    "type": "ground",
+    "category": "charged",
+    "power": 130,
+    "energyCost": 60
+  },
+  "PSYBEAM": {
+    "name": "Psybeam",
+    "nameHu": "Psybeam",
+    "type": "psychic",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 60
+  },
+  "PSYCHIC": {
+    "name": "Psychic",
+    "nameHu": "Psychic",
+    "type": "psychic",
+    "category": "charged",
+    "power": 75,
+    "energyCost": 55
+  },
+  "PSYCHIC_FANGS": {
+    "name": "Psychic Fangs",
+    "nameHu": "Psychic Fangs",
+    "type": "psychic",
+    "category": "charged",
+    "power": 40,
+    "energyCost": 35
+  },
+  "PSYCHO_CUT": {
+    "name": "Psycho Cut",
+    "nameHu": "Psycho Cut",
+    "type": "psychic",
+    "category": "fast",
+    "power": 4,
+    "energyGain": 9,
+    "turns": 2
+  },
+  "PSYSHOCK": {
+    "name": "Psyshock",
+    "nameHu": "Psyshock",
+    "type": "psychic",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 40
+  },
+  "PSYSTRIKE": {
+    "name": "Psystrike",
+    "nameHu": "Psystrike",
+    "type": "psychic",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 45
+  },
+  "PSYWAVE": {
+    "name": "Psywave",
+    "nameHu": "Psywave",
+    "type": "psychic",
+    "category": "fast",
+    "power": 3,
+    "energyGain": 4,
+    "turns": 1
+  },
+  "QUICK_ATTACK": {
+    "name": "Quick Attack",
+    "nameHu": "Quick Attack",
+    "type": "normal",
+    "category": "fast",
+    "power": 5,
+    "energyGain": 8,
+    "turns": 2
+  },
+  "RAGE_FIST": {
+    "name": "Rage Fist",
+    "nameHu": "Rage Fist",
+    "type": "ghost",
+    "category": "charged",
+    "power": 50,
+    "energyCost": 35
+  },
+  "RAZOR_SHELL": {
+    "name": "Razor Shell",
+    "nameHu": "Razor Shell",
+    "type": "water",
+    "category": "charged",
+    "power": 35,
+    "energyCost": 35
+  },
+  "RETURN": {
+    "name": "Return",
+    "nameHu": "Return",
+    "type": "normal",
+    "category": "charged",
+    "power": 130,
+    "energyCost": 70
+  },
+  "ROAR_OF_TIME": {
+    "name": "Roar of Time",
+    "nameHu": "Roar of Time",
+    "type": "dragon",
+    "category": "charged",
+    "power": 150,
+    "energyCost": 65
+  },
+  "ROCK_BLAST": {
+    "name": "Rock Blast",
+    "nameHu": "Rock Blast",
+    "type": "rock",
+    "category": "charged",
+    "power": 50,
+    "energyCost": 40
+  },
+  "ROCK_SLIDE": {
+    "name": "Rock Slide",
+    "nameHu": "Rock Slide",
+    "type": "rock",
+    "category": "charged",
+    "power": 75,
+    "energyCost": 45
+  },
+  "ROCK_SMASH": {
+    "name": "Rock Smash",
+    "nameHu": "Rock Smash",
+    "type": "fighting",
+    "category": "fast",
+    "power": 9,
+    "energyGain": 7,
+    "turns": 3
+  },
+  "ROCK_TOMB": {
+    "name": "Rock Tomb",
+    "nameHu": "Rock Tomb",
+    "type": "rock",
+    "category": "charged",
+    "power": 75,
+    "energyCost": 50
+  },
+  "ROCK_WRECKER": {
+    "name": "Rock Wrecker",
+    "nameHu": "Rock Wrecker",
+    "type": "rock",
+    "category": "charged",
+    "power": 110,
+    "energyCost": 50
+  },
+  "ROLLOUT": {
+    "name": "Rollout",
+    "nameHu": "Rollout",
+    "type": "rock",
+    "category": "fast",
+    "power": 7,
+    "energyGain": 13,
+    "turns": 3
+  },
+  "SACRED_FIRE": {
+    "name": "Sacred Fire",
+    "nameHu": "Sacred Fire",
+    "type": "fire",
+    "category": "charged",
+    "power": 130,
+    "energyCost": 65
+  },
+  "SACRED_SWORD": {
+    "name": "Sacred Sword",
+    "nameHu": "Sacred Sword",
+    "type": "fighting",
+    "category": "charged",
+    "power": 60,
+    "energyCost": 35
+  },
+  "SANDSEAR_STORM": {
+    "name": "Sandsear Storm",
+    "nameHu": "Sandsear Storm",
+    "type": "ground",
+    "category": "charged",
+    "power": 60,
+    "energyCost": 45
+  },
+  "SAND_ATTACK": {
+    "name": "Sand Attack",
+    "nameHu": "Sand Attack",
+    "type": "ground",
+    "category": "fast",
+    "power": 2,
+    "energyGain": 4,
+    "turns": 1
+  },
+  "SAND_TOMB": {
+    "name": "Sand Tomb",
+    "nameHu": "Sand Tomb",
+    "type": "ground",
+    "category": "charged",
+    "power": 40,
+    "energyCost": 40
+  },
+  "SCALD": {
+    "name": "Scald",
+    "nameHu": "Scald",
+    "type": "water",
+    "category": "charged",
+    "power": 85,
+    "energyCost": 50
+  },
+  "SCORCHING_SANDS": {
+    "name": "Scorching Sands",
+    "nameHu": "Scorching Sands",
+    "type": "ground",
+    "category": "charged",
+    "power": 80,
+    "energyCost": 50
+  },
+  "SECRET_SWORD": {
+    "name": "Secret Sword",
+    "nameHu": "Secret Sword",
+    "type": "fighting",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 35
+  },
+  "SHADOW_BALL": {
+    "name": "Shadow Ball",
+    "nameHu": "Shadow Ball",
+    "type": "ghost",
+    "category": "charged",
+    "power": 100,
+    "energyCost": 50
+  },
+  "SHADOW_CLAW": {
+    "name": "Shadow Claw",
+    "nameHu": "Shadow Claw",
+    "type": "ghost",
+    "category": "fast",
+    "power": 6,
+    "energyGain": 8,
+    "turns": 2
+  },
+  "SHADOW_FORCE": {
+    "name": "Shadow Force",
+    "nameHu": "Shadow Force",
+    "type": "ghost",
+    "category": "charged",
+    "power": 120,
+    "energyCost": 90
+  },
+  "SHADOW_PUNCH": {
+    "name": "Shadow Punch",
+    "nameHu": "Shadow Punch",
+    "type": "ghost",
+    "category": "charged",
+    "power": 55,
+    "energyCost": 35
+  },
+  "SHADOW_SNEAK": {
+    "name": "Shadow Sneak",
+    "nameHu": "Shadow Sneak",
+    "type": "ghost",
+    "category": "charged",
+    "power": 75,
+    "energyCost": 50
+  },
+  "SKULL_BASH": {
+    "name": "Skull Bash",
+    "nameHu": "Skull Bash",
+    "type": "normal",
+    "category": "charged",
+    "power": 130,
+    "energyCost": 75
+  },
+  "SKY_ATTACK": {
+    "name": "Sky Attack",
+    "nameHu": "Sky Attack",
+    "type": "flying",
+    "category": "charged",
+    "power": 75,
+    "energyCost": 50
+  },
+  "SLUDGE": {
+    "name": "Sludge",
+    "nameHu": "Sludge",
+    "type": "poison",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 40
+  },
+  "SLUDGE_BOMB": {
+    "name": "Sludge Bomb",
+    "nameHu": "Sludge Bomb",
+    "type": "poison",
+    "category": "charged",
+    "power": 80,
+    "energyCost": 50
+  },
+  "SMACK_DOWN": {
+    "name": "Smack Down",
+    "nameHu": "Smack Down",
+    "type": "rock",
+    "category": "fast",
+    "power": 11,
+    "energyGain": 8,
+    "turns": 3
+  },
+  "SNARL": {
+    "name": "Snarl",
+    "nameHu": "Snarl",
+    "type": "dark",
+    "category": "fast",
+    "power": 5,
+    "energyGain": 13,
+    "turns": 3
+  },
+  "SOLAR_BEAM": {
+    "name": "Solar Beam",
+    "nameHu": "Solar Beam",
+    "type": "grass",
+    "category": "charged",
+    "power": 150,
+    "energyCost": 80
+  },
+  "SPACIAL_REND": {
+    "name": "Spacial Rend",
+    "nameHu": "Spacial Rend",
+    "type": "dragon",
+    "category": "charged",
+    "power": 95,
+    "energyCost": 55
+  },
+  "SPARKLING_ARIA": {
+    "name": "Sparkling Aria",
+    "nameHu": "Sparkling Aria",
+    "type": "water",
+    "category": "charged",
+    "power": 80,
+    "energyCost": 45
+  },
+  "STEEL_WING": {
+    "name": "Steel Wing",
+    "nameHu": "Steel Wing",
+    "type": "steel",
+    "category": "fast",
+    "power": 7,
+    "energyGain": 5,
+    "turns": 2
+  },
+  "STONE_EDGE": {
+    "name": "Stone Edge",
+    "nameHu": "Stone Edge",
+    "type": "rock",
+    "category": "charged",
+    "power": 100,
+    "energyCost": 55
+  },
+  "SUCKER_PUNCH": {
+    "name": "Sucker Punch",
+    "nameHu": "Sucker Punch",
+    "type": "dark",
+    "category": "fast",
+    "power": 8,
+    "energyGain": 7,
+    "turns": 2
+  },
+  "SUNSTEEL_STRIKE": {
+    "name": "Sunsteel Strike",
+    "nameHu": "Sunsteel Strike",
+    "type": "steel",
+    "category": "charged",
+    "power": 135,
+    "energyCost": 65
+  },
+  "SUPER_POWER": {
+    "name": "Superpower",
+    "nameHu": "Superpower",
+    "type": "fighting",
+    "category": "charged",
+    "power": 85,
+    "energyCost": 40
+  },
+  "SURF": {
+    "name": "Surf",
+    "nameHu": "Surf",
+    "type": "water",
+    "category": "charged",
+    "power": 75,
+    "energyCost": 45
+  },
+  "SWIFT": {
+    "name": "Swift",
+    "nameHu": "Swift",
+    "type": "normal",
+    "category": "charged",
+    "power": 55,
+    "energyCost": 35
+  },
+  "TACKLE": {
+    "name": "Tackle",
+    "nameHu": "Tackle",
+    "type": "normal",
+    "category": "fast",
+    "power": 3,
+    "energyGain": 3,
+    "turns": 1
+  },
+  "THUNDER": {
+    "name": "Thunder",
+    "nameHu": "Thunder",
+    "type": "electric",
+    "category": "charged",
+    "power": 100,
+    "energyCost": 60
+  },
+  "THUNDERBOLT": {
+    "name": "Thunderbolt",
+    "nameHu": "Thunderbolt",
+    "type": "electric",
+    "category": "charged",
+    "power": 90,
+    "energyCost": 55
+  },
+  "THUNDER_FANG": {
+    "name": "Thunder Fang",
+    "nameHu": "Thunder Fang",
+    "type": "electric",
+    "category": "fast",
+    "power": 8,
+    "energyGain": 6,
+    "turns": 2
+  },
+  "THUNDER_PUNCH": {
+    "name": "Thunder Punch",
+    "nameHu": "Thunder Punch",
+    "type": "electric",
+    "category": "charged",
+    "power": 60,
+    "energyCost": 40
+  },
+  "THUNDER_SHOCK": {
+    "name": "Thunder Shock",
+    "nameHu": "Thunder Shock",
+    "type": "electric",
+    "category": "fast",
+    "power": 4,
+    "energyGain": 9,
+    "turns": 2
+  },
+  "TRAILBLAZE": {
+    "name": "Trailblaze",
+    "nameHu": "Trailblaze",
+    "type": "grass",
+    "category": "charged",
+    "power": 65,
+    "energyCost": 45
+  },
+  "TWISTER": {
+    "name": "Twister",
+    "nameHu": "Twister",
+    "type": "dragon",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 40
+  },
+  "VICE_GRIP": {
+    "name": "Vise Grip",
+    "nameHu": "Vise Grip",
+    "type": "normal",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 40
+  },
+  "VINE_WHIP": {
+    "name": "Vine Whip",
+    "nameHu": "Vine Whip",
+    "type": "grass",
+    "category": "fast",
+    "power": 5,
+    "energyGain": 8,
+    "turns": 2
+  },
+  "VOLT_SWITCH": {
+    "name": "Volt Switch",
+    "nameHu": "Volt Switch",
+    "type": "electric",
+    "category": "fast",
+    "power": 14,
+    "energyGain": 16,
+    "turns": 4
+  },
+  "WATERFALL": {
+    "name": "Waterfall",
+    "nameHu": "Waterfall",
+    "type": "water",
+    "category": "fast",
+    "power": 11,
+    "energyGain": 10,
+    "turns": 3
+  },
+  "WATER_GUN": {
+    "name": "Water Gun",
+    "nameHu": "Water Gun",
+    "type": "water",
+    "category": "fast",
+    "power": 3,
+    "energyGain": 3,
+    "turns": 1
+  },
+  "WATER_PULSE": {
+    "name": "Water Pulse",
+    "nameHu": "Water Pulse",
+    "type": "water",
+    "category": "charged",
+    "power": 80,
+    "energyCost": 50
+  },
+  "WEATHER_BALL_FIRE": {
+    "name": "Weather Ball (Fire)",
+    "nameHu": "Weather Ball (Fire)",
+    "type": "fire",
+    "category": "charged",
+    "power": 60,
+    "energyCost": 35
+  },
+  "WEATHER_BALL_ICE": {
+    "name": "Weather Ball (Ice)",
+    "nameHu": "Weather Ball (Ice)",
+    "type": "ice",
+    "category": "charged",
+    "power": 60,
+    "energyCost": 35
+  },
+  "WEATHER_BALL_ROCK": {
+    "name": "Weather Ball (Rock)",
+    "nameHu": "Weather Ball (Rock)",
+    "type": "rock",
+    "category": "charged",
+    "power": 60,
+    "energyCost": 35
+  },
+  "WILD_CHARGE": {
+    "name": "Wild Charge",
+    "nameHu": "Wild Charge",
+    "type": "electric",
+    "category": "charged",
+    "power": 100,
+    "energyCost": 45
+  },
+  "WING_ATTACK": {
+    "name": "Wing Attack",
+    "nameHu": "Wing Attack",
+    "type": "flying",
+    "category": "fast",
+    "power": 5,
+    "energyGain": 8,
+    "turns": 2
+  },
+  "WRAP": {
+    "name": "Wrap",
+    "nameHu": "Wrap",
+    "type": "normal",
+    "category": "charged",
+    "power": 70,
+    "energyCost": 45
+  },
+  "X_SCISSOR": {
+    "name": "X-Scissor",
+    "nameHu": "X-Scissor",
+    "type": "bug",
+    "category": "charged",
+    "power": 65,
+    "energyCost": 40
+  },
+  "ZAP_CANNON": {
+    "name": "Zap Cannon",
+    "nameHu": "Zap Cannon",
+    "type": "electric",
+    "category": "charged",
+    "power": 150,
+    "energyCost": 80
+  },
+  "ZEN_HEADBUTT": {
+    "name": "Zen Headbutt",
+    "nameHu": "Zen Headbutt",
+    "type": "psychic",
+    "category": "fast",
+    "power": 8,
+    "energyGain": 6,
+    "turns": 3
+  }
+}

@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #0e0e10;
+  color: #f3f4f6;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* avoid iOS pull-to-refresh stealing the gesture during battle */
+  overscroll-behavior-y: none;
+}
+
+/* The keystroke search relies on the body having focus; hide the caret. */
+* {
+  -webkit-tap-highlight-color: transparent;
+}

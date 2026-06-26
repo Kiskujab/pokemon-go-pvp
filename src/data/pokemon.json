@@ -1,0 +1,4542 @@
+{
+  "mimikyu": {
+    "name": "Mimikyu (Busted)",
+    "nameHu": "Mimikyu (Busted)",
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "stats": {
+      "atk": 121.5,
+      "def": 141.6,
+      "hp": 107
+    },
+    "fastMoves": [
+      "SHADOW_CLAW",
+      "HEX"
+    ],
+    "chargedMoves": [
+      "SHADOW_SNEAK",
+      "PLAY_ROUGH",
+      "THUNDER"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 778
+  },
+  "lickilicky": {
+    "name": "Lickilicky",
+    "nameHu": "Lickilicky",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "atk": 105.7,
+      "def": 125.5,
+      "hp": 160
+    },
+    "fastMoves": [
+      "ROLLOUT",
+      "LICK"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "SHADOW_BALL",
+      "EARTHQUAKE",
+      "SOLAR_BEAM"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 463
+  },
+  "tinkaton": {
+    "name": "Tinkaton",
+    "nameHu": "Tinkaton",
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "stats": {
+      "atk": 106.2,
+      "def": 140.9,
+      "hp": 141
+    },
+    "fastMoves": [
+      "FAIRY_WIND",
+      "ROCK_SMASH"
+    ],
+    "chargedMoves": [
+      "GIGATON_HAMMER",
+      "PLAY_ROUGH",
+      "HEAVY_SLAM",
+      "BULLDOZE"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 959
+  },
+  "altaria": {
+    "name": "Altaria",
+    "nameHu": "Altaria",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "stats": {
+      "atk": 103.4,
+      "def": 151.9,
+      "hp": 138
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "PECK"
+    ],
+    "chargedMoves": [
+      "SKY_ATTACK",
+      "DRAGON_PULSE",
+      "FLAMETHROWER",
+      "MOONBLAST"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 334
+  },
+  "empoleon": {
+    "name": "Empoleon",
+    "nameHu": "Empoleon",
+    "types": [
+      "water",
+      "steel"
+    ],
+    "stats": {
+      "atk": 125.1,
+      "def": 117,
+      "hp": 122
+    },
+    "fastMoves": [
+      "METAL_SOUND",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "HYDRO_CANNON",
+      "DRILL_PECK",
+      "FLASH_CANNON",
+      "BLIZZARD"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 395
+  },
+  "altaria_shadow": {
+    "name": "Altaria (Shadow)",
+    "nameHu": "Altaria (Shadow)",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "stats": {
+      "atk": 103.4,
+      "def": 151.9,
+      "hp": 138
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "PECK"
+    ],
+    "chargedMoves": [
+      "SKY_ATTACK",
+      "DRAGON_PULSE",
+      "FLAMETHROWER",
+      "MOONBLAST"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 334
+  },
+  "empoleon_shadow": {
+    "name": "Empoleon (Shadow)",
+    "nameHu": "Empoleon (Shadow)",
+    "types": [
+      "water",
+      "steel"
+    ],
+    "stats": {
+      "atk": 125.1,
+      "def": 117,
+      "hp": 122
+    },
+    "fastMoves": [
+      "METAL_SOUND",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "HYDRO_CANNON",
+      "DRILL_PECK",
+      "FLASH_CANNON",
+      "BLIZZARD"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 395
+  },
+  "quagsire_shadow": {
+    "name": "Quagsire (Shadow)",
+    "nameHu": "Quagsire (Shadow)",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "stats": {
+      "atk": 111.2,
+      "def": 112.6,
+      "hp": 161
+    },
+    "fastMoves": [
+      "MUD_SHOT",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "MUD_BOMB",
+      "STONE_EDGE",
+      "DRAIN_PUNCH"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 195
+  },
+  "quagsire": {
+    "name": "Quagsire",
+    "nameHu": "Quagsire",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "stats": {
+      "atk": 111.2,
+      "def": 112.6,
+      "hp": 161
+    },
+    "fastMoves": [
+      "MUD_SHOT",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "MUD_BOMB",
+      "STONE_EDGE",
+      "DRAIN_PUNCH"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 195
+  },
+  "jellicent": {
+    "name": "Jellicent",
+    "nameHu": "Jellicent",
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "stats": {
+      "atk": 106.6,
+      "def": 126.3,
+      "hp": 156
+    },
+    "fastMoves": [
+      "HEX",
+      "BUBBLE"
+    ],
+    "chargedMoves": [
+      "SHADOW_BALL",
+      "SURF",
+      "ICE_BEAM",
+      "BUBBLE_BEAM"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 593
+  },
+  "forretress": {
+    "name": "Forretress",
+    "nameHu": "Forretress",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "stats": {
+      "atk": 109.7,
+      "def": 145.4,
+      "hp": 128
+    },
+    "fastMoves": [
+      "VOLT_SWITCH",
+      "BUG_BITE"
+    ],
+    "chargedMoves": [
+      "ROCK_TOMB",
+      "MIRROR_SHOT",
+      "SAND_TOMB",
+      "HEAVY_SLAM"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 205
+  },
+  "ninetales": {
+    "name": "Ninetales",
+    "nameHu": "Ninetales",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "atk": 114.3,
+      "def": 135.5,
+      "hp": 126
+    },
+    "fastMoves": [
+      "EMBER",
+      "FIRE_SPIN"
+    ],
+    "chargedMoves": [
+      "WEATHER_BALL_FIRE",
+      "PSYSHOCK",
+      "ENERGY_BALL",
+      "SCORCHING_SANDS"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 38
+  },
+  "ninetales_shadow": {
+    "name": "Ninetales (Shadow)",
+    "nameHu": "Ninetales (Shadow)",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "atk": 114.3,
+      "def": 135.5,
+      "hp": 126
+    },
+    "fastMoves": [
+      "EMBER",
+      "FIRE_SPIN"
+    ],
+    "chargedMoves": [
+      "WEATHER_BALL_FIRE",
+      "PSYSHOCK",
+      "ENERGY_BALL",
+      "SCORCHING_SANDS"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 38
+  },
+  "forretress_shadow": {
+    "name": "Forretress (Shadow)",
+    "nameHu": "Forretress (Shadow)",
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "stats": {
+      "atk": 109.7,
+      "def": 145.4,
+      "hp": 128
+    },
+    "fastMoves": [
+      "VOLT_SWITCH",
+      "BUG_BITE"
+    ],
+    "chargedMoves": [
+      "ROCK_TOMB",
+      "MIRROR_SHOT",
+      "SAND_TOMB",
+      "HEAVY_SLAM"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 205
+  },
+  "corsola_galarian": {
+    "name": "Corsola (Galarian)",
+    "nameHu": "Corsola (Galarian)",
+    "types": [
+      "ghost"
+    ],
+    "stats": {
+      "atk": 99.3,
+      "def": 163,
+      "hp": 139
+    },
+    "fastMoves": [
+      "ASTONISH",
+      "TACKLE"
+    ],
+    "chargedMoves": [
+      "NIGHT_SHADE",
+      "POWER_GEM",
+      "ROCK_BLAST"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 222
+  },
+  "feraligatr": {
+    "name": "Feraligatr",
+    "nameHu": "Feraligatr",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "atk": 123.8,
+      "def": 117.3,
+      "hp": 125
+    },
+    "fastMoves": [
+      "SHADOW_CLAW",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "HYDRO_CANNON",
+      "CRUNCH",
+      "ICE_BEAM",
+      "HYDRO_PUMP"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 160
+  },
+  "jumpluff": {
+    "name": "Jumpluff",
+    "nameHu": "Jumpluff",
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "stats": {
+      "atk": 96.7,
+      "def": 156.9,
+      "hp": 153
+    },
+    "fastMoves": [
+      "FAIRY_WIND",
+      "BULLET_SEED"
+    ],
+    "chargedMoves": [
+      "ENERGY_BALL",
+      "ACROBATICS",
+      "AERIAL_ACE",
+      "DAZZLING_GLEAM"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 189
+  },
+  "clodsire": {
+    "name": "Clodsire",
+    "nameHu": "Clodsire",
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "stats": {
+      "atk": 95,
+      "def": 119.7,
+      "hp": 208
+    },
+    "fastMoves": [
+      "POISON_STING",
+      "MUD_SHOT"
+    ],
+    "chargedMoves": [
+      "EARTHQUAKE",
+      "STONE_EDGE",
+      "SLUDGE_BOMB",
+      "MEGAHORN"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 980
+  },
+  "corviknight": {
+    "name": "Corviknight",
+    "nameHu": "Corviknight",
+    "types": [
+      "flying",
+      "steel"
+    ],
+    "stats": {
+      "atk": 106.9,
+      "def": 130.6,
+      "hp": 150
+    },
+    "fastMoves": [
+      "SAND_ATTACK",
+      "AIR_SLASH"
+    ],
+    "chargedMoves": [
+      "AIR_CUTTER",
+      "IRON_HEAD",
+      "PAYBACK",
+      "SKY_ATTACK"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 823
+  },
+  "fearow": {
+    "name": "Fearow",
+    "nameHu": "Fearow",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "stats": {
+      "atk": 131.4,
+      "def": 104.6,
+      "hp": 124
+    },
+    "fastMoves": [
+      "PECK",
+      "STEEL_WING"
+    ],
+    "chargedMoves": [
+      "DRILL_PECK",
+      "DRILL_RUN",
+      "TWISTER",
+      "FLY"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 22
+  },
+  "feraligatr_shadow": {
+    "name": "Feraligatr (Shadow)",
+    "nameHu": "Feraligatr (Shadow)",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "atk": 123.8,
+      "def": 117.3,
+      "hp": 125
+    },
+    "fastMoves": [
+      "SHADOW_CLAW",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "HYDRO_CANNON",
+      "CRUNCH",
+      "ICE_BEAM",
+      "HYDRO_PUMP"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 160
+  },
+  "kingdra": {
+    "name": "Kingdra",
+    "nameHu": "Kingdra",
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "stats": {
+      "atk": 121.8,
+      "def": 127.9,
+      "hp": 118
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "SURF",
+      "SWIFT",
+      "OUTRAGE",
+      "BLIZZARD"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 230
+  },
+  "azumarill": {
+    "name": "Azumarill",
+    "nameHu": "Azumarill",
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "stats": {
+      "atk": 93.4,
+      "def": 134.4,
+      "hp": 191
+    },
+    "fastMoves": [
+      "BUBBLE",
+      "ROCK_SMASH"
+    ],
+    "chargedMoves": [
+      "PLAY_ROUGH",
+      "ICE_BEAM",
+      "HYDRO_PUMP"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 184
+  },
+  "guzzlord": {
+    "name": "Guzzlord",
+    "nameHu": "Guzzlord",
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "stats": {
+      "atk": 113.2,
+      "def": 66,
+      "hp": 265
+    },
+    "fastMoves": [
+      "DRAGON_TAIL",
+      "SNARL"
+    ],
+    "chargedMoves": [
+      "BRUTAL_SWING",
+      "DRAGON_CLAW",
+      "SLUDGE_BOMB",
+      "CRUNCH"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 799
+  },
+  "corviknight_shadow": {
+    "name": "Corviknight (Shadow)",
+    "nameHu": "Corviknight (Shadow)",
+    "types": [
+      "flying",
+      "steel"
+    ],
+    "stats": {
+      "atk": 106.9,
+      "def": 130.6,
+      "hp": 150
+    },
+    "fastMoves": [
+      "SAND_ATTACK",
+      "AIR_SLASH"
+    ],
+    "chargedMoves": [
+      "AIR_CUTTER",
+      "IRON_HEAD",
+      "PAYBACK",
+      "SKY_ATTACK"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 823
+  },
+  "furret": {
+    "name": "Furret",
+    "nameHu": "Furret",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "atk": 115.3,
+      "def": 105.4,
+      "hp": 160
+    },
+    "fastMoves": [
+      "SUCKER_PUNCH",
+      "QUICK_ATTACK"
+    ],
+    "chargedMoves": [
+      "SWIFT",
+      "TRAILBLAZE",
+      "BRICK_BREAK",
+      "DIG"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 162
+  },
+  "kingdra_shadow": {
+    "name": "Kingdra (Shadow)",
+    "nameHu": "Kingdra (Shadow)",
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "stats": {
+      "atk": 121.8,
+      "def": 127.9,
+      "hp": 118
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "SURF",
+      "SWIFT",
+      "OUTRAGE",
+      "BLIZZARD"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 230
+  },
+  "lapras": {
+    "name": "Lapras",
+    "nameHu": "Lapras",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "stats": {
+      "atk": 104.6,
+      "def": 114.5,
+      "hp": 179
+    },
+    "fastMoves": [
+      "PSYWAVE",
+      "ICE_SHARD"
+    ],
+    "chargedMoves": [
+      "SPARKLING_ARIA",
+      "ICE_BEAM",
+      "SURF",
+      "DRAGON_PULSE"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 131
+  },
+  "dragonair_shadow": {
+    "name": "Dragonair (Shadow)",
+    "nameHu": "Dragonair (Shadow)",
+    "types": [
+      "dragon"
+    ],
+    "stats": {
+      "atk": 125.2,
+      "def": 112.4,
+      "hp": 127
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "IRON_TAIL"
+    ],
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "BODY_SLAM",
+      "DRAGON_PULSE",
+      "WRAP"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 148
+  },
+  "sableye_shadow": {
+    "name": "Sableye (Shadow)",
+    "nameHu": "Sableye (Shadow)",
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "stats": {
+      "atk": 119.6,
+      "def": 124.6,
+      "hp": 125
+    },
+    "fastMoves": [
+      "SHADOW_CLAW",
+      "FEINT_ATTACK"
+    ],
+    "chargedMoves": [
+      "FOUL_PLAY",
+      "POWER_GEM",
+      "SHADOW_SNEAK",
+      "DRAIN_PUNCH"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 302
+  },
+  "seismitoad": {
+    "name": "Seismitoad",
+    "nameHu": "Seismitoad",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "stats": {
+      "atk": 120.3,
+      "def": 100.8,
+      "hp": 154
+    },
+    "fastMoves": [
+      "MUD_SHOT",
+      "BUBBLE"
+    ],
+    "chargedMoves": [
+      "EARTH_POWER",
+      "ICY_WIND",
+      "MUDDY_WATER",
+      "SLUDGE_BOMB"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 537
+  },
+  "umbreon": {
+    "name": "Umbreon",
+    "nameHu": "Umbreon",
+    "types": [
+      "dark"
+    ],
+    "stats": {
+      "atk": 90.2,
+      "def": 177,
+      "hp": 156
+    },
+    "fastMoves": [
+      "SNARL",
+      "FEINT_ATTACK"
+    ],
+    "chargedMoves": [
+      "FOUL_PLAY",
+      "LAST_RESORT",
+      "DARK_PULSE",
+      "PSYCHIC"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 197
+  },
+  "medicham": {
+    "name": "Medicham",
+    "nameHu": "Medicham",
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "stats": {
+      "atk": 106.9,
+      "def": 139.4,
+      "hp": 141
+    },
+    "fastMoves": [
+      "PSYCHO_CUT",
+      "COUNTER"
+    ],
+    "chargedMoves": [
+      "DYNAMIC_PUNCH",
+      "ICE_PUNCH",
+      "PSYCHIC",
+      "POWER_UP_PUNCH"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 308
+  },
+  "talonflame": {
+    "name": "Talonflame",
+    "nameHu": "Talonflame",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "stats": {
+      "atk": 121.4,
+      "def": 112.6,
+      "hp": 135
+    },
+    "fastMoves": [
+      "INCINERATE",
+      "PECK"
+    ],
+    "chargedMoves": [
+      "BRAVE_BIRD",
+      "FLY",
+      "FLAME_CHARGE",
+      "HURRICANE"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 663
+  },
+  "dragonair": {
+    "name": "Dragonair",
+    "nameHu": "Dragonair",
+    "types": [
+      "dragon"
+    ],
+    "stats": {
+      "atk": 125.2,
+      "def": 112.4,
+      "hp": 127
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "IRON_TAIL"
+    ],
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "BODY_SLAM",
+      "WRAP",
+      "DRAGON_PULSE"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 148
+  },
+  "oinkologne_female": {
+    "name": "Oinkologne (Female)",
+    "nameHu": "Oinkologne (Female)",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "atk": 109.6,
+      "def": 111.5,
+      "hp": 167
+    },
+    "fastMoves": [
+      "MUD_SLAP",
+      "TACKLE"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "TRAILBLAZE",
+      "DIG"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 916
+  },
+  "sliggoo": {
+    "name": "Sliggoo",
+    "nameHu": "Sliggoo",
+    "types": [
+      "dragon"
+    ],
+    "stats": {
+      "atk": 114.1,
+      "def": 133.8,
+      "hp": 128
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "DRAGON_PULSE",
+      "WATER_PULSE",
+      "MUDDY_WATER"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 705
+  },
+  "sealeo": {
+    "name": "Sealeo",
+    "nameHu": "Sealeo",
+    "types": [
+      "ice",
+      "water"
+    ],
+    "stats": {
+      "atk": 108.9,
+      "def": 112.8,
+      "hp": 168
+    },
+    "fastMoves": [
+      "POWDER_SNOW",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "SURF",
+      "BODY_SLAM",
+      "AURORA_BEAM",
+      "WATER_PULSE"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 364
+  },
+  "greedent": {
+    "name": "Greedent",
+    "nameHu": "Greedent",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "atk": 106.8,
+      "def": 110.7,
+      "hp": 177
+    },
+    "fastMoves": [
+      "MUD_SHOT",
+      "BULLET_SEED"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "TRAILBLAZE",
+      "CRUNCH"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 820
+  },
+  "grumpig": {
+    "name": "Grumpig",
+    "nameHu": "Grumpig",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "atk": 113.3,
+      "def": 131.4,
+      "hp": 132
+    },
+    "fastMoves": [
+      "PSYWAVE",
+      "EXTRASENSORY"
+    ],
+    "chargedMoves": [
+      "DYNAMIC_PUNCH",
+      "SHADOW_BALL",
+      "PSYCHIC",
+      "RETURN"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 326
+  },
+  "sealeo_shadow": {
+    "name": "Sealeo (Shadow)",
+    "nameHu": "Sealeo (Shadow)",
+    "types": [
+      "ice",
+      "water"
+    ],
+    "stats": {
+      "atk": 108.9,
+      "def": 112.8,
+      "hp": 168
+    },
+    "fastMoves": [
+      "POWDER_SNOW",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "SURF",
+      "BODY_SLAM",
+      "AURORA_BEAM",
+      "WATER_PULSE"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 364
+  },
+  "diggersby": {
+    "name": "Diggersby",
+    "nameHu": "Diggersby",
+    "types": [
+      "normal",
+      "ground"
+    ],
+    "stats": {
+      "atk": 95.7,
+      "def": 140.3,
+      "hp": 174
+    },
+    "fastMoves": [
+      "MUD_SHOT",
+      "QUICK_ATTACK"
+    ],
+    "chargedMoves": [
+      "SCORCHING_SANDS",
+      "FIRE_PUNCH",
+      "RETURN",
+      "EARTHQUAKE"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 660
+  },
+  "dusclops": {
+    "name": "Dusclops",
+    "nameHu": "Dusclops",
+    "types": [
+      "ghost"
+    ],
+    "stats": {
+      "atk": 102.4,
+      "def": 197.6,
+      "hp": 108
+    },
+    "fastMoves": [
+      "HEX",
+      "FEINT_ATTACK"
+    ],
+    "chargedMoves": [
+      "SHADOW_PUNCH",
+      "ICE_PUNCH",
+      "FIRE_PUNCH",
+      "RETURN"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 356
+  },
+  "florges": {
+    "name": "Florges",
+    "nameHu": "Florges",
+    "types": [
+      "fairy"
+    ],
+    "stats": {
+      "atk": 120,
+      "def": 141.5,
+      "hp": 110
+    },
+    "fastMoves": [
+      "FAIRY_WIND",
+      "VINE_WHIP"
+    ],
+    "chargedMoves": [
+      "DISARMING_VOICE",
+      "CHILLING_WATER",
+      "TRAILBLAZE",
+      "MOONBLAST"
+    ],
+    "leagues": [
+      "great",
+      "ultra",
+      "master"
+    ],
+    "sprite": 671
+  },
+  "lapras_shadow": {
+    "name": "Lapras (Shadow)",
+    "nameHu": "Lapras (Shadow)",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "stats": {
+      "atk": 104.6,
+      "def": 114.5,
+      "hp": 179
+    },
+    "fastMoves": [
+      "PSYWAVE",
+      "ICE_SHARD"
+    ],
+    "chargedMoves": [
+      "SPARKLING_ARIA",
+      "ICE_BEAM",
+      "SURF",
+      "DRAGON_PULSE"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 131
+  },
+  "sableye": {
+    "name": "Sableye",
+    "nameHu": "Sableye",
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "stats": {
+      "atk": 119.6,
+      "def": 124.6,
+      "hp": 125
+    },
+    "fastMoves": [
+      "SHADOW_CLAW",
+      "FEINT_ATTACK"
+    ],
+    "chargedMoves": [
+      "FOUL_PLAY",
+      "POWER_GEM",
+      "SHADOW_SNEAK",
+      "DRAIN_PUNCH"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 302
+  },
+  "wigglytuff": {
+    "name": "Wigglytuff",
+    "nameHu": "Wigglytuff",
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "stats": {
+      "atk": 115.1,
+      "def": 75.5,
+      "hp": 223
+    },
+    "fastMoves": [
+      "CHARM",
+      "FEINT_ATTACK"
+    ],
+    "chargedMoves": [
+      "SWIFT",
+      "DISARMING_VOICE",
+      "ICY_WIND",
+      "DAZZLING_GLEAM"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 40
+  },
+  "cradily": {
+    "name": "Cradily",
+    "nameHu": "Cradily",
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "stats": {
+      "atk": 105.2,
+      "def": 140.3,
+      "hp": 144
+    },
+    "fastMoves": [
+      "ACID",
+      "BULLET_SEED"
+    ],
+    "chargedMoves": [
+      "ROCK_TOMB",
+      "ROCK_SLIDE",
+      "GRASS_KNOT",
+      "BULLDOZE"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 346
+  },
+  "dusclops_shadow": {
+    "name": "Dusclops (Shadow)",
+    "nameHu": "Dusclops (Shadow)",
+    "types": [
+      "ghost"
+    ],
+    "stats": {
+      "atk": 102.4,
+      "def": 197.6,
+      "hp": 108
+    },
+    "fastMoves": [
+      "HEX",
+      "FEINT_ATTACK"
+    ],
+    "chargedMoves": [
+      "SHADOW_PUNCH",
+      "ICE_PUNCH",
+      "FIRE_PUNCH",
+      "POLTERGEIST"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 356
+  },
+  "moltres_galarian": {
+    "name": "Moltres (Galarian)",
+    "nameHu": "Moltres (Galarian)",
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "stats": {
+      "atk": 115.1,
+      "def": 134.6,
+      "hp": 124
+    },
+    "fastMoves": [
+      "SUCKER_PUNCH",
+      "WING_ATTACK"
+    ],
+    "chargedMoves": [
+      "BRAVE_BIRD",
+      "FLY",
+      "PAYBACK",
+      "ANCIENT_POWER"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 146
+  },
+  "blastoise": {
+    "name": "Blastoise",
+    "nameHu": "Blastoise",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "atk": 112.1,
+      "def": 137.7,
+      "hp": 130
+    },
+    "fastMoves": [
+      "ROLLOUT",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "HYDRO_CANNON",
+      "ICE_BEAM",
+      "SKULL_BASH",
+      "FLASH_CANNON"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 9
+  },
+  "clefable": {
+    "name": "Clefable",
+    "nameHu": "Clefable",
+    "types": [
+      "fairy"
+    ],
+    "stats": {
+      "atk": 116.5,
+      "def": 112.1,
+      "hp": 147
+    },
+    "fastMoves": [
+      "FAIRY_WIND",
+      "CHARM"
+    ],
+    "chargedMoves": [
+      "METEOR_MASH",
+      "SWIFT",
+      "MOONBLAST",
+      "DAZZLING_GLEAM"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 36
+  },
+  "mantine": {
+    "name": "Mantine",
+    "nameHu": "Mantine",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "stats": {
+      "atk": 105.5,
+      "def": 166.5,
+      "hp": 121
+    },
+    "fastMoves": [
+      "WING_ATTACK",
+      "BUBBLE"
+    ],
+    "chargedMoves": [
+      "TWISTER",
+      "WATER_PULSE",
+      "AERIAL_ACE",
+      "ICE_BEAM"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 226
+  },
+  "talonflame_shadow": {
+    "name": "Talonflame (Shadow)",
+    "nameHu": "Talonflame (Shadow)",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "stats": {
+      "atk": 121.4,
+      "def": 112.6,
+      "hp": 135
+    },
+    "fastMoves": [
+      "INCINERATE",
+      "PECK"
+    ],
+    "chargedMoves": [
+      "BRAVE_BIRD",
+      "FLY",
+      "FLAME_CHARGE",
+      "FIRE_BLAST"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 663
+  },
+  "mandibuzz": {
+    "name": "Mandibuzz",
+    "nameHu": "Mandibuzz",
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "stats": {
+      "atk": 92.1,
+      "def": 151.2,
+      "hp": 175
+    },
+    "fastMoves": [
+      "SNARL",
+      "AIR_SLASH"
+    ],
+    "chargedMoves": [
+      "FOUL_PLAY",
+      "SHADOW_BALL",
+      "AERIAL_ACE",
+      "DARK_PULSE"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 630
+  },
+  "dewgong": {
+    "name": "Dewgong",
+    "nameHu": "Dewgong",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "stats": {
+      "atk": 101.9,
+      "def": 136.9,
+      "hp": 157
+    },
+    "fastMoves": [
+      "ICE_SHARD",
+      "FROST_BREATH"
+    ],
+    "chargedMoves": [
+      "AQUA_JET",
+      "DRILL_RUN",
+      "ICY_WIND",
+      "BLIZZARD"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 87
+  },
+  "malamar": {
+    "name": "Malamar",
+    "nameHu": "Malamar",
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "stats": {
+      "atk": 117.2,
+      "def": 116.5,
+      "hp": 139
+    },
+    "fastMoves": [
+      "PSYWAVE",
+      "PSYCHO_CUT"
+    ],
+    "chargedMoves": [
+      "FOUL_PLAY",
+      "SUPER_POWER",
+      "PSYBEAM",
+      "RETURN"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 687
+  },
+  "steelix_shadow": {
+    "name": "Steelix (Shadow)",
+    "nameHu": "Steelix (Shadow)",
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "stats": {
+      "atk": 98.4,
+      "def": 183.2,
+      "hp": 126
+    },
+    "fastMoves": [
+      "DRAGON_TAIL",
+      "THUNDER_FANG"
+    ],
+    "chargedMoves": [
+      "PSYCHIC_FANGS",
+      "EARTHQUAKE",
+      "CRUNCH",
+      "HEAVY_SLAM"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 208
+  },
+  "charjabug": {
+    "name": "Charjabug",
+    "nameHu": "Charjabug",
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "stats": {
+      "atk": 114.7,
+      "def": 134.8,
+      "hp": 126
+    },
+    "fastMoves": [
+      "VOLT_SWITCH",
+      "BUG_BITE"
+    ],
+    "chargedMoves": [
+      "X_SCISSOR",
+      "DISCHARGE",
+      "CRUNCH",
+      "RETURN"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 737
+  },
+  "drapion_shadow": {
+    "name": "Drapion (Shadow)",
+    "nameHu": "Drapion (Shadow)",
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "stats": {
+      "atk": 117.8,
+      "def": 136.8,
+      "hp": 118
+    },
+    "fastMoves": [
+      "POISON_STING",
+      "ICE_FANG"
+    ],
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "CRUNCH",
+      "SLUDGE_BOMB",
+      "FELL_STINGER"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 452
+  },
+  "gastrodon": {
+    "name": "Gastrodon",
+    "nameHu": "Gastrodon",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "stats": {
+      "atk": 113.2,
+      "def": 103.4,
+      "hp": 168
+    },
+    "fastMoves": [
+      "MUD_SLAP",
+      "HIDDEN_POWER_GROUND"
+    ],
+    "chargedMoves": [
+      "EARTH_POWER",
+      "BODY_SLAM",
+      "WATER_PULSE",
+      "EARTHQUAKE"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 423
+  },
+  "ninetales_alolan": {
+    "name": "Ninetales (Alolan)",
+    "nameHu": "Ninetales (Alolan)",
+    "types": [
+      "ice",
+      "fairy"
+    ],
+    "stats": {
+      "atk": 114.5,
+      "def": 136.1,
+      "hp": 125
+    },
+    "fastMoves": [
+      "POWDER_SNOW",
+      "CHARM"
+    ],
+    "chargedMoves": [
+      "WEATHER_BALL_ICE",
+      "PSYSHOCK",
+      "CHILLING_WATER",
+      "DAZZLING_GLEAM"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 38
+  },
+  "ninetales_alolan_shadow": {
+    "name": "Ninetales (Alolan) (Shadow)",
+    "nameHu": "Ninetales (Alolan) (Shadow)",
+    "types": [
+      "ice",
+      "fairy"
+    ],
+    "stats": {
+      "atk": 114.5,
+      "def": 136.1,
+      "hp": 125
+    },
+    "fastMoves": [
+      "POWDER_SNOW",
+      "CHARM"
+    ],
+    "chargedMoves": [
+      "WEATHER_BALL_ICE",
+      "PSYSHOCK",
+      "CHILLING_WATER",
+      "DAZZLING_GLEAM"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 38
+  },
+  "swampert": {
+    "name": "Swampert",
+    "nameHu": "Swampert",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "stats": {
+      "atk": 122.9,
+      "def": 109.1,
+      "hp": 136
+    },
+    "fastMoves": [
+      "MUD_SHOT",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "HYDRO_CANNON",
+      "SLUDGE",
+      "EARTHQUAKE",
+      "MUDDY_WATER"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 260
+  },
+  "aegislash_shield": {
+    "name": "Aegislash (Blade)",
+    "nameHu": "Aegislash (Blade)",
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "stats": {
+      "atk": 82.8,
+      "def": 234.6,
+      "hp": 139
+    },
+    "fastMoves": [
+      "AEGISLASH_CHARGE_PSYCHO_CUT",
+      "AEGISLASH_CHARGE_AIR_SLASH"
+    ],
+    "chargedMoves": [
+      "FLASH_CANNON",
+      "GYRO_BALL"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 681
+  },
+  "bastiodon": {
+    "name": "Bastiodon",
+    "nameHu": "Bastiodon",
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "stats": {
+      "atk": 80.6,
+      "def": 247.6,
+      "hp": 139
+    },
+    "fastMoves": [
+      "SMACK_DOWN",
+      "IRON_TAIL"
+    ],
+    "chargedMoves": [
+      "STONE_EDGE",
+      "FLAMETHROWER",
+      "FLASH_CANNON",
+      "RETURN"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 411
+  },
+  "marowak_shadow": {
+    "name": "Marowak (Shadow)",
+    "nameHu": "Marowak (Shadow)",
+    "types": [
+      "ground"
+    ],
+    "stats": {
+      "atk": 109.6,
+      "def": 148.8,
+      "hp": 125
+    },
+    "fastMoves": [
+      "MUD_SLAP",
+      "ROCK_SMASH"
+    ],
+    "chargedMoves": [
+      "BONE_CLUB",
+      "ROCK_SLIDE",
+      "EARTHQUAKE",
+      "DIG"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 105
+  },
+  "swampert_shadow": {
+    "name": "Swampert (Shadow)",
+    "nameHu": "Swampert (Shadow)",
+    "types": [
+      "water",
+      "ground"
+    ],
+    "stats": {
+      "atk": 122.9,
+      "def": 109.1,
+      "hp": 136
+    },
+    "fastMoves": [
+      "MUD_SHOT",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "HYDRO_CANNON",
+      "SLUDGE",
+      "EARTHQUAKE",
+      "MUDDY_WATER"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 260
+  },
+  "registeel": {
+    "name": "Registeel",
+    "nameHu": "Registeel",
+    "types": [
+      "steel"
+    ],
+    "stats": {
+      "atk": 95.6,
+      "def": 190,
+      "hp": 129
+    },
+    "fastMoves": [
+      "LOCK_ON",
+      "METAL_CLAW"
+    ],
+    "chargedMoves": [
+      "FLASH_CANNON",
+      "FOCUS_BLAST",
+      "ZAP_CANNON",
+      "RETURN"
+    ],
+    "leagues": [
+      "great",
+      "ultra"
+    ],
+    "sprite": 379
+  },
+  "stunfisk_galarian": {
+    "name": "Stunfisk (Galarian)",
+    "nameHu": "Stunfisk (Galarian)",
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "stats": {
+      "atk": 101.4,
+      "def": 126.6,
+      "hp": 172
+    },
+    "fastMoves": [
+      "MUD_SHOT",
+      "METAL_CLAW"
+    ],
+    "chargedMoves": [
+      "ROCK_SLIDE",
+      "EARTHQUAKE",
+      "MUDDY_WATER",
+      "FLASH_CANNON"
+    ],
+    "leagues": [
+      "great"
+    ],
+    "sprite": 618
+  },
+  "virizion": {
+    "name": "Virizion",
+    "nameHu": "Virizion",
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "stats": {
+      "atk": 146,
+      "def": 180,
+      "hp": 162
+    },
+    "fastMoves": [
+      "DOUBLE_KICK",
+      "QUICK_ATTACK"
+    ],
+    "chargedMoves": [
+      "LEAF_BLADE",
+      "SACRED_SWORD",
+      "CLOSE_COMBAT",
+      "STONE_EDGE"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 640
+  },
+  "zygarde_complete": {
+    "name": "Zygarde (Complete Forme)",
+    "nameHu": "Zygarde (Complete Forme)",
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "stats": {
+      "atk": 128.9,
+      "def": 142,
+      "hp": 264
+    },
+    "fastMoves": [
+      "DRAGON_TAIL",
+      "BITE"
+    ],
+    "chargedMoves": [
+      "CRUNCH",
+      "OUTRAGE",
+      "EARTHQUAKE",
+      "BULLDOZE"
+    ],
+    "leagues": [
+      "ultra",
+      "master"
+    ],
+    "sprite": 718
+  },
+  "dusknoir": {
+    "name": "Dusknoir",
+    "nameHu": "Dusknoir",
+    "types": [
+      "ghost"
+    ],
+    "stats": {
+      "atk": 153.2,
+      "def": 222.3,
+      "hp": 119
+    },
+    "fastMoves": [
+      "HEX",
+      "ASTONISH"
+    ],
+    "chargedMoves": [
+      "SHADOW_PUNCH",
+      "DYNAMIC_PUNCH",
+      "SHADOW_BALL",
+      "DARK_PULSE"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 477
+  },
+  "dusknoir_shadow": {
+    "name": "Dusknoir (Shadow)",
+    "nameHu": "Dusknoir (Shadow)",
+    "types": [
+      "ghost"
+    ],
+    "stats": {
+      "atk": 153.2,
+      "def": 222.3,
+      "hp": 119
+    },
+    "fastMoves": [
+      "HEX",
+      "ASTONISH"
+    ],
+    "chargedMoves": [
+      "SHADOW_PUNCH",
+      "DYNAMIC_PUNCH",
+      "SHADOW_BALL",
+      "DARK_PULSE"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 477
+  },
+  "malamar_shadow": {
+    "name": "Malamar (Shadow)",
+    "nameHu": "Malamar (Shadow)",
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "stats": {
+      "atk": 152,
+      "def": 149.5,
+      "hp": 180
+    },
+    "fastMoves": [
+      "PSYWAVE",
+      "PSYCHO_CUT"
+    ],
+    "chargedMoves": [
+      "FOUL_PLAY",
+      "SUPER_POWER",
+      "PSYBEAM",
+      "HYPER_BEAM"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 687
+  },
+  "regidrago": {
+    "name": "Regidrago",
+    "nameHu": "Regidrago",
+    "types": [
+      "dragon"
+    ],
+    "stats": {
+      "atk": 154.5,
+      "def": 84.3,
+      "hp": 309
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "BITE"
+    ],
+    "chargedMoves": [
+      "DRAGON_ENERGY",
+      "VICE_GRIP",
+      "OUTRAGE",
+      "DRAGON_PULSE"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 895
+  },
+  "walrein": {
+    "name": "Walrein",
+    "nameHu": "Walrein",
+    "types": [
+      "ice",
+      "water"
+    ],
+    "stats": {
+      "atk": 145.4,
+      "def": 147.7,
+      "hp": 200
+    },
+    "fastMoves": [
+      "POWDER_SNOW",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "ICICLE_SPEAR",
+      "WATER_PULSE",
+      "EARTHQUAKE",
+      "RETURN"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 365
+  },
+  "walrein_shadow": {
+    "name": "Walrein (Shadow)",
+    "nameHu": "Walrein (Shadow)",
+    "types": [
+      "ice",
+      "water"
+    ],
+    "stats": {
+      "atk": 145.4,
+      "def": 147.7,
+      "hp": 200
+    },
+    "fastMoves": [
+      "POWDER_SNOW",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "ICICLE_SPEAR",
+      "WATER_PULSE",
+      "EARTHQUAKE",
+      "BLIZZARD"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 365
+  },
+  "dondozo": {
+    "name": "Dondozo",
+    "nameHu": "Dondozo",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "atk": 133.8,
+      "def": 142.8,
+      "hp": 243
+    },
+    "fastMoves": [
+      "WATERFALL",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "LIQUIDATION",
+      "SURF",
+      "OUTRAGE",
+      "HYDRO_PUMP"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 977
+  },
+  "giratina_altered": {
+    "name": "Giratina (Altered)",
+    "nameHu": "Giratina (Altered)",
+    "types": [
+      "ghost",
+      "dragon"
+    ],
+    "stats": {
+      "atk": 134.5,
+      "def": 168.1,
+      "hp": 204
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "SHADOW_CLAW"
+    ],
+    "chargedMoves": [
+      "SHADOW_SNEAK",
+      "DRAGON_CLAW",
+      "ANCIENT_POWER",
+      "RETURN"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 487
+  },
+  "annihilape": {
+    "name": "Annihilape",
+    "nameHu": "Annihilape",
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "stats": {
+      "atk": 159,
+      "def": 135.7,
+      "hp": 181
+    },
+    "fastMoves": [
+      "LOW_KICK",
+      "COUNTER"
+    ],
+    "chargedMoves": [
+      "RAGE_FIST",
+      "CLOSE_COMBAT",
+      "SHADOW_BALL",
+      "ICE_PUNCH"
+    ],
+    "leagues": [
+      "ultra",
+      "master"
+    ],
+    "sprite": 979
+  },
+  "bellibolt": {
+    "name": "Bellibolt",
+    "nameHu": "Bellibolt",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "atk": 148,
+      "def": 141.7,
+      "hp": 200
+    },
+    "fastMoves": [
+      "THUNDER_SHOCK",
+      "SUCKER_PUNCH"
+    ],
+    "chargedMoves": [
+      "DISCHARGE",
+      "PARABOLIC_CHARGE",
+      "ZAP_CANNON"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 939
+  },
+  "annihilape_shadow": {
+    "name": "Annihilape (Shadow)",
+    "nameHu": "Annihilape (Shadow)",
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "stats": {
+      "atk": 159,
+      "def": 135.7,
+      "hp": 181
+    },
+    "fastMoves": [
+      "LOW_KICK",
+      "COUNTER"
+    ],
+    "chargedMoves": [
+      "RAGE_FIST",
+      "CLOSE_COMBAT",
+      "SHADOW_BALL",
+      "ICE_PUNCH"
+    ],
+    "leagues": [
+      "ultra",
+      "master"
+    ],
+    "sprite": 979
+  },
+  "cresselia": {
+    "name": "Cresselia",
+    "nameHu": "Cresselia",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "atk": 120.1,
+      "def": 207.2,
+      "hp": 208
+    },
+    "fastMoves": [
+      "PSYCHO_CUT",
+      "CONFUSION"
+    ],
+    "chargedMoves": [
+      "GRASS_KNOT",
+      "MOONBLAST",
+      "FUTURE_SIGHT",
+      "AURORA_BEAM"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 488
+  },
+  "milotic": {
+    "name": "Milotic",
+    "nameHu": "Milotic",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "atk": 145.1,
+      "def": 172.6,
+      "hp": 171
+    },
+    "fastMoves": [
+      "DRAGON_TAIL",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "WRAP",
+      "SURF",
+      "BLIZZARD"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 350
+  },
+  "oranguru": {
+    "name": "Oranguru",
+    "nameHu": "Oranguru",
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "stats": {
+      "atk": 141.9,
+      "def": 170,
+      "hp": 182
+    },
+    "fastMoves": [
+      "CONFUSION"
+    ],
+    "chargedMoves": [
+      "BRUTAL_SWING",
+      "TRAILBLAZE",
+      "FUTURE_SIGHT",
+      "PSYCHIC"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 765
+  },
+  "giratina_altered_shadow": {
+    "name": "Giratina (Altered) (Shadow)",
+    "nameHu": "Giratina (Altered) (Shadow)",
+    "types": [
+      "ghost",
+      "dragon"
+    ],
+    "stats": {
+      "atk": 137.4,
+      "def": 163.1,
+      "hp": 202
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "SHADOW_CLAW"
+    ],
+    "chargedMoves": [
+      "DRAGON_CLAW",
+      "SHADOW_SNEAK",
+      "ANCIENT_POWER",
+      "SHADOW_FORCE"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 487
+  },
+  "seaking": {
+    "name": "Seaking",
+    "nameHu": "Seaking",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "atk": 159.6,
+      "def": 136.1,
+      "hp": 172
+    },
+    "fastMoves": [
+      "PECK",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "DRILL_RUN",
+      "ICY_WIND",
+      "WATER_PULSE",
+      "MEGAHORN"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 119
+  },
+  "steelix": {
+    "name": "Steelix",
+    "nameHu": "Steelix",
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "stats": {
+      "atk": 126.5,
+      "def": 238.1,
+      "hp": 163
+    },
+    "fastMoves": [
+      "DRAGON_TAIL",
+      "THUNDER_FANG"
+    ],
+    "chargedMoves": [
+      "PSYCHIC_FANGS",
+      "EARTHQUAKE",
+      "CRUNCH",
+      "HEAVY_SLAM"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 208
+  },
+  "runerigus": {
+    "name": "Runerigus",
+    "nameHu": "Runerigus",
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "stats": {
+      "atk": 146.6,
+      "def": 208.6,
+      "hp": 139
+    },
+    "fastMoves": [
+      "SHADOW_CLAW",
+      "ASTONISH"
+    ],
+    "chargedMoves": [
+      "SHADOW_BALL",
+      "BRUTAL_SWING",
+      "SAND_TOMB",
+      "ROCK_TOMB"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 867
+  },
+  "cradily_shadow": {
+    "name": "Cradily (Shadow)",
+    "nameHu": "Cradily (Shadow)",
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "stats": {
+      "atk": 140.3,
+      "def": 175.6,
+      "hp": 180
+    },
+    "fastMoves": [
+      "ACID",
+      "BULLET_SEED"
+    ],
+    "chargedMoves": [
+      "ROCK_TOMB",
+      "ROCK_SLIDE",
+      "GRASS_KNOT",
+      "BULLDOZE"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 346
+  },
+  "cresselia_shadow": {
+    "name": "Cresselia (Shadow)",
+    "nameHu": "Cresselia (Shadow)",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "atk": 121.9,
+      "def": 201.7,
+      "hp": 207
+    },
+    "fastMoves": [
+      "CONFUSION",
+      "PSYCHO_CUT"
+    ],
+    "chargedMoves": [
+      "GRASS_KNOT",
+      "MOONBLAST",
+      "FUTURE_SIGHT",
+      "AURORA_BEAM"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 488
+  },
+  "ampharos_shadow": {
+    "name": "Ampharos (Shadow)",
+    "nameHu": "Ampharos (Shadow)",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "atk": 163.7,
+      "def": 137.8,
+      "hp": 169
+    },
+    "fastMoves": [
+      "VOLT_SWITCH",
+      "CHARGE_BEAM"
+    ],
+    "chargedMoves": [
+      "BRUTAL_SWING",
+      "THUNDER_PUNCH",
+      "TRAILBLAZE",
+      "POWER_GEM"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 181
+  },
+  "ampharos": {
+    "name": "Ampharos",
+    "nameHu": "Ampharos",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "atk": 163.7,
+      "def": 137.8,
+      "hp": 169
+    },
+    "fastMoves": [
+      "VOLT_SWITCH",
+      "CHARGE_BEAM"
+    ],
+    "chargedMoves": [
+      "THUNDER_PUNCH",
+      "BRUTAL_SWING",
+      "TRAILBLAZE",
+      "POWER_GEM"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 181
+  },
+  "milotic_shadow": {
+    "name": "Milotic (Shadow)",
+    "nameHu": "Milotic (Shadow)",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "atk": 145.1,
+      "def": 172.6,
+      "hp": 171
+    },
+    "fastMoves": [
+      "DRAGON_TAIL",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "WRAP",
+      "SURF",
+      "BLIZZARD"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 350
+  },
+  "raikou_shadow": {
+    "name": "Raikou (Shadow)",
+    "nameHu": "Raikou (Shadow)",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "atk": 171.2,
+      "def": 138.9,
+      "hp": 151
+    },
+    "fastMoves": [
+      "VOLT_SWITCH",
+      "THUNDER_SHOCK"
+    ],
+    "chargedMoves": [
+      "WILD_CHARGE",
+      "AURA_SPHERE",
+      "SHADOW_BALL",
+      "THUNDERBOLT"
+    ],
+    "leagues": [
+      "ultra",
+      "master"
+    ],
+    "sprite": 243
+  },
+  "togekiss": {
+    "name": "Togekiss",
+    "nameHu": "Togekiss",
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "stats": {
+      "atk": 161.1,
+      "def": 161.1,
+      "hp": 149
+    },
+    "fastMoves": [
+      "PECK",
+      "CHARM"
+    ],
+    "chargedMoves": [
+      "AURA_SPHERE",
+      "PSYSHOCK",
+      "DAZZLING_GLEAM",
+      "AERIAL_ACE"
+    ],
+    "leagues": [
+      "ultra",
+      "master"
+    ],
+    "sprite": 468
+  },
+  "turtonator": {
+    "name": "Turtonator",
+    "nameHu": "Turtonator",
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "stats": {
+      "atk": 150.4,
+      "def": 193.2,
+      "hp": 142
+    },
+    "fastMoves": [
+      "INCINERATE",
+      "EMBER"
+    ],
+    "chargedMoves": [
+      "BRUTAL_SWING",
+      "DRAGON_CLAW",
+      "FLAMETHROWER",
+      "OVERHEAT"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 776
+  },
+  "hippowdon": {
+    "name": "Hippowdon",
+    "nameHu": "Hippowdon",
+    "types": [
+      "ground"
+    ],
+    "stats": {
+      "atk": 149.9,
+      "def": 150.7,
+      "hp": 184
+    },
+    "fastMoves": [
+      "SAND_ATTACK",
+      "ICE_FANG"
+    ],
+    "chargedMoves": [
+      "WEATHER_BALL_ROCK",
+      "EARTH_POWER",
+      "BODY_SLAM",
+      "SCORCHING_SANDS"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 450
+  },
+  "toucannon_shadow": {
+    "name": "Toucannon (Shadow)",
+    "nameHu": "Toucannon (Shadow)",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "stats": {
+      "atk": 177.3,
+      "def": 124.7,
+      "hp": 159
+    },
+    "fastMoves": [
+      "PECK",
+      "BULLET_SEED"
+    ],
+    "chargedMoves": [
+      "BEAK_BLAST",
+      "DRILL_PECK",
+      "ROCK_BLAST",
+      "FLASH_CANNON"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 733
+  },
+  "golisopod": {
+    "name": "Golisopod",
+    "nameHu": "Golisopod",
+    "types": [
+      "bug",
+      "water"
+    ],
+    "stats": {
+      "atk": 160.4,
+      "def": 171.9,
+      "hp": 141
+    },
+    "fastMoves": [
+      "FURY_CUTTER",
+      "SHADOW_CLAW"
+    ],
+    "chargedMoves": [
+      "AQUA_JET",
+      "X_SCISSOR",
+      "RAZOR_SHELL",
+      "AERIAL_ACE"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 768
+  },
+  "gyarados": {
+    "name": "Gyarados",
+    "nameHu": "Gyarados",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "stats": {
+      "atk": 167.9,
+      "def": 138.1,
+      "hp": 160
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "TWISTER",
+      "CRUNCH",
+      "RETURN"
+    ],
+    "leagues": [
+      "ultra",
+      "master"
+    ],
+    "sprite": 130
+  },
+  "hydreigon_shadow": {
+    "name": "Hydreigon (Shadow)",
+    "nameHu": "Hydreigon (Shadow)",
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "stats": {
+      "atk": 174.9,
+      "def": 135.5,
+      "hp": 150
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "BITE"
+    ],
+    "chargedMoves": [
+      "BRUTAL_SWING",
+      "FLY",
+      "DRAGON_PULSE",
+      "DARK_PULSE"
+    ],
+    "leagues": [
+      "ultra",
+      "master"
+    ],
+    "sprite": 635
+  },
+  "orthworm": {
+    "name": "Orthworm",
+    "nameHu": "Orthworm",
+    "types": [
+      "steel"
+    ],
+    "stats": {
+      "atk": 144,
+      "def": 194.8,
+      "hp": 154
+    },
+    "fastMoves": [
+      "MUD_SLAP",
+      "IRON_TAIL"
+    ],
+    "chargedMoves": [
+      "ROCK_TOMB",
+      "EARTHQUAKE",
+      "IRON_HEAD"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 968
+  },
+  "toucannon": {
+    "name": "Toucannon",
+    "nameHu": "Toucannon",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "stats": {
+      "atk": 177.3,
+      "def": 124.7,
+      "hp": 159
+    },
+    "fastMoves": [
+      "PECK",
+      "BULLET_SEED"
+    ],
+    "chargedMoves": [
+      "BEAK_BLAST",
+      "DRILL_PECK",
+      "ROCK_BLAST",
+      "RETURN"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 733
+  },
+  "aromatisse": {
+    "name": "Aromatisse",
+    "nameHu": "Aromatisse",
+    "types": [
+      "fairy"
+    ],
+    "stats": {
+      "atk": 152.6,
+      "def": 135.3,
+      "hp": 198
+    },
+    "fastMoves": [
+      "FAIRY_WIND",
+      "CHARM"
+    ],
+    "chargedMoves": [
+      "PSYSHOCK",
+      "MOONBLAST",
+      "THUNDERBOLT",
+      "DRAINING_KISS"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 683
+  },
+  "hippowdon_shadow": {
+    "name": "Hippowdon (Shadow)",
+    "nameHu": "Hippowdon (Shadow)",
+    "types": [
+      "ground"
+    ],
+    "stats": {
+      "atk": 149.9,
+      "def": 150.7,
+      "hp": 184
+    },
+    "fastMoves": [
+      "SAND_ATTACK",
+      "ICE_FANG"
+    ],
+    "chargedMoves": [
+      "WEATHER_BALL_ROCK",
+      "EARTH_POWER",
+      "BODY_SLAM",
+      "SCORCHING_SANDS"
+    ],
+    "leagues": [
+      "ultra"
+    ],
+    "sprite": 450
+  },
+  "zacian_crowned_sword": {
+    "name": "Zacian (Crowned Sword)",
+    "nameHu": "Zacian (Crowned Sword)",
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "stats": {
+      "atk": 291.5,
+      "def": 214.2,
+      "hp": 173
+    },
+    "fastMoves": [
+      "METAL_CLAW",
+      "AIR_SLASH"
+    ],
+    "chargedMoves": [
+      "CLOSE_COMBAT",
+      "BEHEMOTH_BLADE",
+      "PLAY_ROUGH",
+      "GIGA_IMPACT"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 888
+  },
+  "palkia_origin": {
+    "name": "Palkia (Origin)",
+    "nameHu": "Palkia (Origin)",
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "stats": {
+      "atk": 252.9,
+      "def": 199.9,
+      "hp": 171
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "DRAGON_TAIL"
+    ],
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "SPACIAL_REND",
+      "DRACO_METEOR",
+      "FIRE_BLAST"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 484
+  },
+  "metagross": {
+    "name": "Metagross",
+    "nameHu": "Metagross",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "stats": {
+      "atk": 228.5,
+      "def": 204.1,
+      "hp": 172
+    },
+    "fastMoves": [
+      "SHADOW_CLAW",
+      "FURY_CUTTER"
+    ],
+    "chargedMoves": [
+      "METEOR_MASH",
+      "EARTHQUAKE",
+      "PSYCHIC",
+      "RETURN"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 376
+  },
+  "kyurem_white": {
+    "name": "Kyurem (White)",
+    "nameHu": "Kyurem (White)",
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "stats": {
+      "atk": 273,
+      "def": 166.3,
+      "hp": 218
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "ICE_FANG"
+    ],
+    "chargedMoves": [
+      "FUSION_FLARE",
+      "ICE_BURN",
+      "DRAGON_PULSE",
+      "ANCIENT_POWER"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 646
+  },
+  "xerneas": {
+    "name": "Xerneas",
+    "nameHu": "Xerneas",
+    "types": [
+      "fairy"
+    ],
+    "stats": {
+      "atk": 222.6,
+      "def": 168,
+      "hp": 219
+    },
+    "fastMoves": [
+      "GEOMANCY",
+      "TACKLE"
+    ],
+    "chargedMoves": [
+      "CLOSE_COMBAT",
+      "MOONBLAST",
+      "MEGAHORN",
+      "THUNDER"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 716
+  },
+  "lunala": {
+    "name": "Lunala",
+    "nameHu": "Lunala",
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "stats": {
+      "atk": 226.8,
+      "def": 173.1,
+      "hp": 234
+    },
+    "fastMoves": [
+      "SHADOW_CLAW",
+      "CONFUSION"
+    ],
+    "chargedMoves": [
+      "SHADOW_BALL",
+      "MOONBLAST",
+      "FUTURE_SIGHT",
+      "PSYCHIC"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 792
+  },
+  "dialga_origin": {
+    "name": "Dialga (Origin)",
+    "nameHu": "Dialga (Origin)",
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "stats": {
+      "atk": 239.4,
+      "def": 201.6,
+      "hp": 184
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "METAL_CLAW"
+    ],
+    "chargedMoves": [
+      "ROAR_OF_TIME",
+      "IRON_HEAD",
+      "THUNDER",
+      "DRACO_METEOR"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 483
+  },
+  "reshiram": {
+    "name": "Reshiram",
+    "nameHu": "Reshiram",
+    "types": [
+      "dragon",
+      "fire"
+    ],
+    "stats": {
+      "atk": 243.6,
+      "def": 189.9,
+      "hp": 184
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "FIRE_FANG"
+    ],
+    "chargedMoves": [
+      "FUSION_FLARE",
+      "CRUNCH",
+      "STONE_EDGE",
+      "DRACO_METEOR"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 643
+  },
+  "zamazenta_crowned_shield": {
+    "name": "Zamazenta (Crowned Shield)",
+    "nameHu": "Zamazenta (Crowned Shield)",
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "stats": {
+      "atk": 222.6,
+      "def": 257.9,
+      "hp": 173
+    },
+    "fastMoves": [
+      "METAL_CLAW",
+      "ICE_FANG"
+    ],
+    "chargedMoves": [
+      "CLOSE_COMBAT",
+      "BEHEMOTH_BASH",
+      "MOONBLAST",
+      "GIGA_IMPACT"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 889
+  },
+  "kyurem_black": {
+    "name": "Kyurem (Black)",
+    "nameHu": "Kyurem (Black)",
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "stats": {
+      "atk": 273,
+      "def": 166.3,
+      "hp": 218
+    },
+    "fastMoves": [
+      "DRAGON_TAIL",
+      "SHADOW_CLAW"
+    ],
+    "chargedMoves": [
+      "FUSION_BOLT",
+      "FREEZE_SHOCK",
+      "OUTRAGE",
+      "STONE_EDGE"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 646
+  },
+  "kyogre": {
+    "name": "Kyogre",
+    "nameHu": "Kyogre",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "atk": 239.4,
+      "def": 204.1,
+      "hp": 184
+    },
+    "fastMoves": [
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "AVALANCHE",
+      "SURF",
+      "ORIGIN_PULSE",
+      "THUNDER"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 382
+  },
+  "zekrom": {
+    "name": "Zekrom",
+    "nameHu": "Zekrom",
+    "types": [
+      "dragon",
+      "electric"
+    ],
+    "stats": {
+      "atk": 243.6,
+      "def": 189.9,
+      "hp": 184
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "CHARGE_BEAM"
+    ],
+    "chargedMoves": [
+      "WILD_CHARGE",
+      "OUTRAGE",
+      "CRUNCH",
+      "FUSION_BOLT"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 644
+  },
+  "marshadow": {
+    "name": "Marshadow",
+    "nameHu": "Marshadow",
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "stats": {
+      "atk": 235.2,
+      "def": 172.2,
+      "hp": 186
+    },
+    "fastMoves": [
+      "SHADOW_CLAW",
+      "SUCKER_PUNCH"
+    ],
+    "chargedMoves": [
+      "CLOSE_COMBAT",
+      "ICE_PUNCH",
+      "ROCK_SLIDE",
+      "THUNDER_PUNCH"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 802
+  },
+  "reshiram_shadow": {
+    "name": "Reshiram (Shadow)",
+    "nameHu": "Reshiram (Shadow)",
+    "types": [
+      "dragon",
+      "fire"
+    ],
+    "stats": {
+      "atk": 243.6,
+      "def": 189.9,
+      "hp": 184
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "FIRE_FANG"
+    ],
+    "chargedMoves": [
+      "FUSION_FLARE",
+      "CRUNCH",
+      "STONE_EDGE",
+      "DRACO_METEOR"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 643
+  },
+  "eternatus": {
+    "name": "Eternatus",
+    "nameHu": "Eternatus",
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "stats": {
+      "atk": 246.2,
+      "def": 173.9,
+      "hp": 237
+    },
+    "fastMoves": [
+      "DRAGON_TAIL",
+      "POISON_JAB"
+    ],
+    "chargedMoves": [
+      "DYNAMAX_CANNON",
+      "SLUDGE_BOMB",
+      "FLAMETHROWER",
+      "DRAGON_PULSE"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 890
+  },
+  "palkia_shadow": {
+    "name": "Palkia (Shadow)",
+    "nameHu": "Palkia (Shadow)",
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "stats": {
+      "atk": 247.8,
+      "def": 193.2,
+      "hp": 171
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "DRAGON_TAIL"
+    ],
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "DRACO_METEOR",
+      "FIRE_BLAST",
+      "HYDRO_PUMP"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 484
+  },
+  "lugia": {
+    "name": "Lugia",
+    "nameHu": "Lugia",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "stats": {
+      "atk": 174.7,
+      "def": 273,
+      "hp": 210
+    },
+    "fastMoves": [
+      "DRAGON_TAIL",
+      "EXTRASENSORY"
+    ],
+    "chargedMoves": [
+      "FLY",
+      "FUTURE_SIGHT",
+      "HYDRO_PUMP",
+      "AEROBLAST"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 249
+  },
+  "metagross_shadow": {
+    "name": "Metagross (Shadow)",
+    "nameHu": "Metagross (Shadow)",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "stats": {
+      "atk": 228.5,
+      "def": 204.1,
+      "hp": 172
+    },
+    "fastMoves": [
+      "SHADOW_CLAW",
+      "BULLET_PUNCH"
+    ],
+    "chargedMoves": [
+      "METEOR_MASH",
+      "EARTHQUAKE",
+      "PSYCHIC",
+      "FLASH_CANNON"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 376
+  },
+  "lugia_shadow": {
+    "name": "Lugia (Shadow)",
+    "nameHu": "Lugia (Shadow)",
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "stats": {
+      "atk": 174.7,
+      "def": 273,
+      "hp": 210
+    },
+    "fastMoves": [
+      "DRAGON_TAIL",
+      "EXTRASENSORY"
+    ],
+    "chargedMoves": [
+      "FLY",
+      "FUTURE_SIGHT",
+      "HYDRO_PUMP",
+      "AEROBLAST"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 249
+  },
+  "garchomp_shadow": {
+    "name": "Garchomp (Shadow)",
+    "nameHu": "Garchomp (Shadow)",
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "stats": {
+      "atk": 231.9,
+      "def": 174.7,
+      "hp": 213
+    },
+    "fastMoves": [
+      "DRAGON_TAIL",
+      "MUD_SHOT"
+    ],
+    "chargedMoves": [
+      "TWISTER",
+      "EARTH_POWER",
+      "SAND_TOMB",
+      "OUTRAGE"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 445
+  },
+  "necrozma_dawn_wings": {
+    "name": "Necrozma (Dawn Wings)",
+    "nameHu": "Necrozma (Dawn Wings)",
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "stats": {
+      "atk": 245.3,
+      "def": 197.4,
+      "hp": 180
+    },
+    "fastMoves": [
+      "SHADOW_CLAW",
+      "PSYCHO_CUT"
+    ],
+    "chargedMoves": [
+      "MOONGEIST_BEAM",
+      "DARK_PULSE",
+      "OUTRAGE",
+      "FUTURE_SIGHT"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 800
+  },
+  "yveltal": {
+    "name": "Yveltal",
+    "nameHu": "Yveltal",
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "stats": {
+      "atk": 222.6,
+      "def": 168,
+      "hp": 219
+    },
+    "fastMoves": [
+      "SUCKER_PUNCH",
+      "GUST"
+    ],
+    "chargedMoves": [
+      "OBLIVION_WING",
+      "DARK_PULSE",
+      "FOCUS_BLAST",
+      "HURRICANE"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 717
+  },
+  "garchomp": {
+    "name": "Garchomp",
+    "nameHu": "Garchomp",
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "stats": {
+      "atk": 231.9,
+      "def": 174.7,
+      "hp": 213
+    },
+    "fastMoves": [
+      "DRAGON_TAIL",
+      "MUD_SHOT"
+    ],
+    "chargedMoves": [
+      "TWISTER",
+      "EARTH_POWER",
+      "SAND_TOMB",
+      "OUTRAGE"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 445
+  },
+  "ho_oh": {
+    "name": "Ho-Oh",
+    "nameHu": "Ho-Oh",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "stats": {
+      "atk": 213.4,
+      "def": 217.6,
+      "hp": 192
+    },
+    "fastMoves": [
+      "INCINERATE",
+      "EXTRASENSORY"
+    ],
+    "chargedMoves": [
+      "BRAVE_BIRD",
+      "SACRED_FIRE",
+      "EARTHQUAKE",
+      "SOLAR_BEAM"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 250
+  },
+  "meloetta_aria": {
+    "name": "Meloetta (Aria)",
+    "nameHu": "Meloetta (Aria)",
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "stats": {
+      "atk": 222.6,
+      "def": 201.6,
+      "hp": 201
+    },
+    "fastMoves": [
+      "CONFUSION",
+      "QUICK_ATTACK"
+    ],
+    "chargedMoves": [
+      "PSYSHOCK",
+      "DAZZLING_GLEAM",
+      "THUNDERBOLT",
+      "HYPER_BEAM"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 648
+  },
+  "palkia": {
+    "name": "Palkia",
+    "nameHu": "Palkia",
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "stats": {
+      "atk": 247.8,
+      "def": 193.2,
+      "hp": 171
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "DRAGON_TAIL"
+    ],
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "DRACO_METEOR",
+      "RETURN",
+      "FIRE_BLAST"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 484
+  },
+  "latios": {
+    "name": "Latios",
+    "nameHu": "Latios",
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "stats": {
+      "atk": 237.8,
+      "def": 190.7,
+      "hp": 172
+    },
+    "fastMoves": [
+      "DRAGON_BREATH"
+    ],
+    "chargedMoves": [
+      "AURA_SPHERE",
+      "LUSTER_PURGE",
+      "DRAGON_CLAW",
+      "PSYCHIC"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 381
+  },
+  "latios_shadow": {
+    "name": "Latios (Shadow)",
+    "nameHu": "Latios (Shadow)",
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "stats": {
+      "atk": 237.8,
+      "def": 190.7,
+      "hp": 172
+    },
+    "fastMoves": [
+      "DRAGON_BREATH"
+    ],
+    "chargedMoves": [
+      "AURA_SPHERE",
+      "LUSTER_PURGE",
+      "DRAGON_CLAW",
+      "PSYCHIC"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 381
+  },
+  "kyogre_shadow": {
+    "name": "Kyogre (Shadow)",
+    "nameHu": "Kyogre (Shadow)",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "atk": 239.4,
+      "def": 204.1,
+      "hp": 184
+    },
+    "fastMoves": [
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "AVALANCHE",
+      "SURF",
+      "ORIGIN_PULSE",
+      "THUNDER"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 382
+  },
+  "necrozma_dusk_mane": {
+    "name": "Necrozma (Dusk Mane)",
+    "nameHu": "Necrozma (Dusk Mane)",
+    "types": [
+      "psychic",
+      "steel"
+    ],
+    "stats": {
+      "atk": 245.3,
+      "def": 197.4,
+      "hp": 180
+    },
+    "fastMoves": [
+      "PSYCHO_CUT",
+      "SHADOW_CLAW"
+    ],
+    "chargedMoves": [
+      "SUNSTEEL_STRIKE",
+      "DARK_PULSE",
+      "IRON_HEAD",
+      "OUTRAGE"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 800
+  },
+  "gyarados_shadow": {
+    "name": "Gyarados (Shadow)",
+    "nameHu": "Gyarados (Shadow)",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "stats": {
+      "atk": 211.7,
+      "def": 168.9,
+      "hp": 194
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "TWISTER",
+      "CRUNCH",
+      "OUTRAGE"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 130
+  },
+  "groudon": {
+    "name": "Groudon",
+    "nameHu": "Groudon",
+    "types": [
+      "ground"
+    ],
+    "stats": {
+      "atk": 239.4,
+      "def": 204.1,
+      "hp": 184
+    },
+    "fastMoves": [
+      "MUD_SHOT",
+      "DRAGON_TAIL"
+    ],
+    "chargedMoves": [
+      "PRECIPICE_BLADES",
+      "FIRE_PUNCH",
+      "RETURN",
+      "EARTHQUAKE"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 383
+  },
+  "gholdengo": {
+    "name": "Gholdengo",
+    "nameHu": "Gholdengo",
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "stats": {
+      "atk": 224.3,
+      "def": 172.2,
+      "hp": 182
+    },
+    "fastMoves": [
+      "HEX",
+      "ASTONISH"
+    ],
+    "chargedMoves": [
+      "SHADOW_BALL",
+      "POWER_GEM",
+      "DAZZLING_GLEAM",
+      "FOCUS_BLAST"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 1000
+  },
+  "mewtwo_shadow": {
+    "name": "Mewtwo (Shadow)",
+    "nameHu": "Mewtwo (Shadow)",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "atk": 264.6,
+      "def": 165.5,
+      "hp": 192
+    },
+    "fastMoves": [
+      "PSYCHO_CUT",
+      "CONFUSION"
+    ],
+    "chargedMoves": [
+      "PSYSTRIKE",
+      "SHADOW_BALL",
+      "ICE_BEAM",
+      "FLAMETHROWER"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 150
+  },
+  "solgaleo": {
+    "name": "Solgaleo",
+    "nameHu": "Solgaleo",
+    "types": [
+      "psychic",
+      "steel"
+    ],
+    "stats": {
+      "atk": 226.8,
+      "def": 173.1,
+      "hp": 234
+    },
+    "fastMoves": [
+      "FIRE_SPIN",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "PSYCHIC_FANGS",
+      "IRON_HEAD",
+      "FLAMETHROWER",
+      "SOLAR_BEAM"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 791
+  },
+  "melmetal": {
+    "name": "Melmetal",
+    "nameHu": "Melmetal",
+    "types": [
+      "steel"
+    ],
+    "stats": {
+      "atk": 202.5,
+      "def": 172.2,
+      "hp": 234
+    },
+    "fastMoves": [
+      "THUNDER_SHOCK"
+    ],
+    "chargedMoves": [
+      "DOUBLE_IRON_BASH",
+      "DYNAMIC_PUNCH",
+      "SUPER_POWER",
+      "ROCK_SLIDE"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 809
+  },
+  "keldeo_resolute": {
+    "name": "Keldeo (Resolute)",
+    "nameHu": "Keldeo (Resolute)",
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "stats": {
+      "atk": 231,
+      "def": 173.9,
+      "hp": 188
+    },
+    "fastMoves": [
+      "LOW_KICK",
+      "POISON_JAB"
+    ],
+    "chargedMoves": [
+      "SECRET_SWORD",
+      "AQUA_JET",
+      "CLOSE_COMBAT",
+      "X_SCISSOR"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 647
+  },
+  "latias_shadow": {
+    "name": "Latias (Shadow)",
+    "nameHu": "Latias (Shadow)",
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "stats": {
+      "atk": 204.1,
+      "def": 219.3,
+      "hp": 172
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "CHARM"
+    ],
+    "chargedMoves": [
+      "AURA_SPHERE",
+      "MIST_BALL",
+      "OUTRAGE",
+      "THUNDER"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 380
+  },
+  "dialga": {
+    "name": "Dialga",
+    "nameHu": "Dialga",
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "stats": {
+      "atk": 243.6,
+      "def": 189.9,
+      "hp": 184
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "METAL_CLAW"
+    ],
+    "chargedMoves": [
+      "IRON_HEAD",
+      "DRACO_METEOR",
+      "THUNDER",
+      "RETURN"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 483
+  },
+  "dialga_shadow": {
+    "name": "Dialga (Shadow)",
+    "nameHu": "Dialga (Shadow)",
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "stats": {
+      "atk": 243.6,
+      "def": 189.9,
+      "hp": 184
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "METAL_CLAW"
+    ],
+    "chargedMoves": [
+      "IRON_HEAD",
+      "DRACO_METEOR",
+      "THUNDER"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 483
+  },
+  "jirachi": {
+    "name": "Jirachi",
+    "nameHu": "Jirachi",
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "stats": {
+      "atk": 189,
+      "def": 189,
+      "hp": 201
+    },
+    "fastMoves": [
+      "CONFUSION",
+      "CHARGE_BEAM"
+    ],
+    "chargedMoves": [
+      "DOOM_DESIRE",
+      "AURA_SPHERE",
+      "DAZZLING_GLEAM",
+      "PSYCHIC"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 385
+  },
+  "mewtwo": {
+    "name": "Mewtwo",
+    "nameHu": "Mewtwo",
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "atk": 264.6,
+      "def": 165.5,
+      "hp": 192
+    },
+    "fastMoves": [
+      "PSYCHO_CUT",
+      "CONFUSION"
+    ],
+    "chargedMoves": [
+      "PSYSTRIKE",
+      "SHADOW_BALL",
+      "ICE_BEAM",
+      "FLAMETHROWER"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 150
+  },
+  "kyurem": {
+    "name": "Kyurem",
+    "nameHu": "Kyurem",
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "stats": {
+      "atk": 219.3,
+      "def": 155.4,
+      "hp": 218
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "STEEL_WING"
+    ],
+    "chargedMoves": [
+      "GLACIATE",
+      "DRAGON_CLAW",
+      "DRACO_METEOR",
+      "BLIZZARD"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 646
+  },
+  "primarina": {
+    "name": "Primarina",
+    "nameHu": "Primarina",
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "stats": {
+      "atk": 207.5,
+      "def": 176.4,
+      "hp": 172
+    },
+    "fastMoves": [
+      "WATERFALL",
+      "CHARM"
+    ],
+    "chargedMoves": [
+      "HYDRO_CANNON",
+      "DISARMING_VOICE",
+      "SPARKLING_ARIA",
+      "MOONBLAST"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 730
+  },
+  "latias": {
+    "name": "Latias",
+    "nameHu": "Latias",
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "stats": {
+      "atk": 204.1,
+      "def": 219.3,
+      "hp": 172
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "CHARM"
+    ],
+    "chargedMoves": [
+      "AURA_SPHERE",
+      "MIST_BALL",
+      "OUTRAGE",
+      "THUNDER"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 380
+  },
+  "tapu_lele": {
+    "name": "Tapu Lele",
+    "nameHu": "Tapu Lele",
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "stats": {
+      "atk": 230.2,
+      "def": 187.3,
+      "hp": 157
+    },
+    "fastMoves": [
+      "CONFUSION",
+      "ASTONISH"
+    ],
+    "chargedMoves": [
+      "NATURES_MADNESS",
+      "PSYSHOCK",
+      "FOCUS_BLAST",
+      "MOONBLAST"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 786
+  },
+  "dragonite_shadow": {
+    "name": "Dragonite (Shadow)",
+    "nameHu": "Dragonite (Shadow)",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "stats": {
+      "atk": 233.6,
+      "def": 178.9,
+      "hp": 188
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "DRAGON_TAIL"
+    ],
+    "chargedMoves": [
+      "SUPER_POWER",
+      "THUNDER_PUNCH",
+      "DRAGON_CLAW",
+      "HURRICANE"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 149
+  },
+  "goodra": {
+    "name": "Goodra",
+    "nameHu": "Goodra",
+    "types": [
+      "dragon"
+    ],
+    "stats": {
+      "atk": 197.4,
+      "def": 215.9,
+      "hp": 186
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "THUNDER_PUNCH",
+      "POWER_WHIP",
+      "DRACO_METEOR"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 706
+  },
+  "keldeo_ordinary": {
+    "name": "Keldeo (Ordinary)",
+    "nameHu": "Keldeo (Ordinary)",
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "stats": {
+      "atk": 231,
+      "def": 173.9,
+      "hp": 188
+    },
+    "fastMoves": [
+      "LOW_KICK",
+      "POISON_JAB"
+    ],
+    "chargedMoves": [
+      "SACRED_SWORD",
+      "CLOSE_COMBAT",
+      "AQUA_JET",
+      "X_SCISSOR"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 647
+  },
+  "tyranitar_shadow": {
+    "name": "Tyranitar (Shadow)",
+    "nameHu": "Tyranitar (Shadow)",
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "stats": {
+      "atk": 223.5,
+      "def": 186.5,
+      "hp": 201
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "SMACK_DOWN"
+    ],
+    "chargedMoves": [
+      "BRUTAL_SWING",
+      "STONE_EDGE",
+      "CRUNCH",
+      "FIRE_BLAST"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 248
+  },
+  "sylveon": {
+    "name": "Sylveon",
+    "nameHu": "Sylveon",
+    "types": [
+      "fairy"
+    ],
+    "stats": {
+      "atk": 183.1,
+      "def": 184.8,
+      "hp": 194
+    },
+    "fastMoves": [
+      "FAIRY_WIND",
+      "QUICK_ATTACK"
+    ],
+    "chargedMoves": [
+      "SHADOW_BALL",
+      "PSYSHOCK",
+      "MOONBLAST",
+      "DAZZLING_GLEAM"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 700
+  },
+  "landorus_therian": {
+    "name": "Landorus (Therian)",
+    "nameHu": "Landorus (Therian)",
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "stats": {
+      "atk": 255.4,
+      "def": 163,
+      "hp": 184
+    },
+    "fastMoves": [
+      "MUD_SHOT",
+      "EXTRASENSORY"
+    ],
+    "chargedMoves": [
+      "SANDSEAR_STORM",
+      "SUPER_POWER",
+      "STONE_EDGE",
+      "EARTHQUAKE"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 645
+  },
+  "groudon_shadow": {
+    "name": "Groudon (Shadow)",
+    "nameHu": "Groudon (Shadow)",
+    "types": [
+      "ground"
+    ],
+    "stats": {
+      "atk": 239.4,
+      "def": 204.1,
+      "hp": 184
+    },
+    "fastMoves": [
+      "MUD_SHOT",
+      "DRAGON_TAIL"
+    ],
+    "chargedMoves": [
+      "PRECIPICE_BLADES",
+      "FIRE_PUNCH",
+      "EARTHQUAKE",
+      "SOLAR_BEAM"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 383
+  },
+  "ho_oh_shadow": {
+    "name": "Ho-Oh (Shadow)",
+    "nameHu": "Ho-Oh (Shadow)",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "stats": {
+      "atk": 213.4,
+      "def": 217.6,
+      "hp": 192
+    },
+    "fastMoves": [
+      "INCINERATE",
+      "EXTRASENSORY"
+    ],
+    "chargedMoves": [
+      "BRAVE_BIRD",
+      "SACRED_FIRE",
+      "EARTHQUAKE",
+      "SOLAR_BEAM"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 250
+  },
+  "volcanion": {
+    "name": "Volcanion",
+    "nameHu": "Volcanion",
+    "types": [
+      "fire",
+      "water"
+    ],
+    "stats": {
+      "atk": 224.3,
+      "def": 194.1,
+      "hp": 172
+    },
+    "fastMoves": [
+      "INCINERATE",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "SCALD",
+      "EARTH_POWER",
+      "OVERHEAT",
+      "SLUDGE_BOMB"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 721
+  },
+  "dragonite": {
+    "name": "Dragonite",
+    "nameHu": "Dragonite",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "stats": {
+      "atk": 233.6,
+      "def": 178.9,
+      "hp": 188
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "DRAGON_TAIL"
+    ],
+    "chargedMoves": [
+      "SUPER_POWER",
+      "THUNDER_PUNCH",
+      "DRAGON_CLAW",
+      "HURRICANE"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 149
+  },
+  "urshifu_single_strike": {
+    "name": "Urshifu (Single Strike)",
+    "nameHu": "Urshifu (Single Strike)",
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "stats": {
+      "atk": 226,
+      "def": 161.3,
+      "hp": 201
+    },
+    "fastMoves": [
+      "SUCKER_PUNCH",
+      "COUNTER"
+    ],
+    "chargedMoves": [
+      "CLOSE_COMBAT",
+      "BRICK_BREAK",
+      "PAYBACK",
+      "DYNAMIC_PUNCH"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 892
+  },
+  "hydreigon": {
+    "name": "Hydreigon",
+    "nameHu": "Hydreigon",
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "stats": {
+      "atk": 227.7,
+      "def": 170.5,
+      "hp": 189
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "BITE"
+    ],
+    "chargedMoves": [
+      "BRUTAL_SWING",
+      "FLY",
+      "DRAGON_PULSE",
+      "FLASH_CANNON"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 635
+  },
+  "heatran_shadow": {
+    "name": "Heatran (Shadow)",
+    "nameHu": "Heatran (Shadow)",
+    "types": [
+      "fire",
+      "steel"
+    ],
+    "stats": {
+      "atk": 223.5,
+      "def": 191.5,
+      "hp": 188
+    },
+    "fastMoves": [
+      "FIRE_SPIN",
+      "BUG_BITE"
+    ],
+    "chargedMoves": [
+      "MAGMA_STORM",
+      "EARTH_POWER",
+      "STONE_EDGE",
+      "IRON_HEAD"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 485
+  },
+  "rhyperior": {
+    "name": "Rhyperior",
+    "nameHu": "Rhyperior",
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "stats": {
+      "atk": 215.1,
+      "def": 172.2,
+      "hp": 223
+    },
+    "fastMoves": [
+      "MUD_SLAP",
+      "SMACK_DOWN"
+    ],
+    "chargedMoves": [
+      "DRILL_RUN",
+      "ROCK_WRECKER",
+      "SUPER_POWER",
+      "SURF"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 464
+  },
+  "baxcalibur": {
+    "name": "Baxcalibur",
+    "nameHu": "Baxcalibur",
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "stats": {
+      "atk": 226,
+      "def": 153.7,
+      "hp": 205
+    },
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "ICE_FANG"
+    ],
+    "chargedMoves": [
+      "GLAIVE_RUSH",
+      "AVALANCHE",
+      "ICY_WIND",
+      "DRAGON_CLAW"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 998
+  },
+  "giratina_origin": {
+    "name": "Giratina (Origin)",
+    "nameHu": "Giratina (Origin)",
+    "types": [
+      "ghost",
+      "dragon"
+    ],
+    "stats": {
+      "atk": 201.6,
+      "def": 169.7,
+      "hp": 251
+    },
+    "fastMoves": [
+      "SHADOW_CLAW",
+      "DRAGON_TAIL"
+    ],
+    "chargedMoves": [
+      "SHADOW_BALL",
+      "DRAGON_PULSE",
+      "OMINOUS_WIND",
+      "SHADOW_FORCE"
+    ],
+    "leagues": [
+      "master"
+    ],
+    "sprite": 487
+  }
+}
