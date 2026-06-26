@@ -12,29 +12,67 @@ import hu from "./locales/hu";
 import de from "./locales/de";
 import es from "./locales/es";
 import it from "./locales/it";
+import fr from "./locales/fr";
+import pt from "./locales/pt";
+import pl from "./locales/pl";
+import cs from "./locales/cs";
+import tr from "./locales/tr";
+import ja from "./locales/ja";
+import zh from "./locales/zh";
+import hi from "./locales/hi";
 
-export type Lang = "hu" | "en" | "de" | "es" | "it";
+export type Lang =
+  | "en"
+  | "de"
+  | "fr"
+  | "es"
+  | "it"
+  | "pt"
+  | "pl"
+  | "cs"
+  | "tr"
+  | "hu"
+  | "ja"
+  | "zh"
+  | "hi";
 
 /** Order shown in the language picker, with native labels + flags. */
 export const LANGUAGES: { id: Lang; label: string; flag: string }[] = [
-  { id: "hu", label: "Magyar", flag: "🇭🇺" },
   { id: "en", label: "English", flag: "🇬🇧" },
   { id: "de", label: "Deutsch", flag: "🇩🇪" },
+  { id: "fr", label: "Français", flag: "🇫🇷" },
   { id: "es", label: "Español", flag: "🇪🇸" },
   { id: "it", label: "Italiano", flag: "🇮🇹" },
+  { id: "pt", label: "Português", flag: "🇵🇹" },
+  { id: "pl", label: "Polski", flag: "🇵🇱" },
+  { id: "cs", label: "Čeština", flag: "🇨🇿" },
+  { id: "tr", label: "Türkçe", flag: "🇹🇷" },
+  { id: "hu", label: "Magyar", flag: "🇭🇺" },
+  { id: "ja", label: "日本語", flag: "🇯🇵" },
+  { id: "zh", label: "中文", flag: "🇨🇳" },
+  { id: "hi", label: "हिन्दी", flag: "🇮🇳" },
 ];
 
 // Each locale is layered over English so any missing key falls back gracefully.
 const DICTS: Record<Lang, Record<string, string>> = {
   en,
-  hu: { ...en, ...hu },
   de: { ...en, ...de },
+  fr: { ...en, ...fr },
   es: { ...en, ...es },
   it: { ...en, ...it },
+  pt: { ...en, ...pt },
+  pl: { ...en, ...pl },
+  cs: { ...en, ...cs },
+  tr: { ...en, ...tr },
+  hu: { ...en, ...hu },
+  ja: { ...en, ...ja },
+  zh: { ...en, ...zh },
+  hi: { ...en, ...hi },
 };
 
 const STORAGE_KEY = "pogo-pvp.lang";
 
+/** Default is English; we only override it with an explicit saved choice. */
 function detectInitial(): Lang {
   try {
     const saved = localStorage.getItem(STORAGE_KEY) as Lang | null;
@@ -42,8 +80,7 @@ function detectInitial(): Lang {
   } catch {
     /* ignore */
   }
-  const nav = typeof navigator !== "undefined" ? navigator.language.slice(0, 2) : "";
-  return (["hu", "en", "de", "es", "it"] as Lang[]).find((l) => l === nav) ?? "en";
+  return "en";
 }
 
 type Params = Record<string, string | number>;
