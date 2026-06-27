@@ -8,21 +8,29 @@ export interface TypeMult {
   mult: number;
 }
 
-/** How each attacking type fares against this mon: what it's weak to / resists. */
-export function defensiveProfile(mon: Pokemon): {
+/** How each attacking type fares against a (1–2) defender typing: weak / resists. */
+export function defensiveProfileForTypes(types: PokemonType[]): {
   weak: TypeMult[];
   resist: TypeMult[];
 } {
   const weak: TypeMult[] = [];
   const resist: TypeMult[] = [];
   for (const t of TYPES) {
-    const m = effectiveness(t, mon.types);
+    const m = effectiveness(t, types);
     if (m > 1.001) weak.push({ type: t, mult: m });
     else if (m < 0.999) resist.push({ type: t, mult: m });
   }
   weak.sort((a, b) => b.mult - a.mult);
   resist.sort((a, b) => a.mult - b.mult);
   return { weak, resist };
+}
+
+/** How each attacking type fares against this mon: what it's weak to / resists. */
+export function defensiveProfile(mon: Pokemon): {
+  weak: TypeMult[];
+  resist: TypeMult[];
+} {
+  return defensiveProfileForTypes(mon.types);
 }
 
 /** Defender types that at least one of this mon's move types hits super-effectively. */

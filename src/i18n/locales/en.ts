@@ -21,7 +21,47 @@ const en = {
   "menu.analysis.title": "Meta & Team Builder",
   "menu.analysis.desc":
     "Explore the meta, scout matchups and build a team with type coverage.",
+  "menu.raid.title": "Raid Counters",
+  "menu.raid.desc":
+    "Pick a raid boss and get the best attackers ranked by damage.",
+  "menu.types.title": "Type Chart",
+  "menu.types.desc":
+    "Dual-type weakness calculator plus the full 18×18 type chart.",
+  "menu.dex.title": "Pokédex",
+  "menu.dex.desc": "Browse every pokémon — stats, moves and matchup profile.",
+  "menu.weather.title": "Weather Boost",
+  "menu.weather.desc": "Which weather boosts which attack types.",
   "menu.language": "Language",
+
+  // --- raid counters ---
+  "raid.title": "Raid Counters",
+  "raid.pickBoss": "type a boss name…",
+  "raid.counters": "Best counters (by DPS)",
+  "raid.dps": "DPS",
+  "raid.hint": "Pick a raid boss to see its best counters.",
+
+  // --- type chart ---
+  "types.title": "Type Chart",
+  "types.pick": "Pick 1–2 types",
+  "types.doubleWeak": "Double weakness",
+  "types.chart": "Full type chart (attack ↓ vs defense →)",
+  "types.chartHint": "Green = super effective · Red = not very effective",
+
+  // --- pokédex ---
+  "dex.title": "Pokédex",
+  "dex.search": "search any pokémon…",
+  "dex.hint": "Search for a pokémon to see its full profile.",
+
+  // --- weather boost ---
+  "weather.title": "Weather Boost",
+  "weather.intro": "In-game weather powers up these attack types (and the pokémon that use them).",
+  "weather.sunny": "Sunny / Clear",
+  "weather.rain": "Rainy",
+  "weather.partlyCloudy": "Partly Cloudy",
+  "weather.cloudy": "Cloudy",
+  "weather.windy": "Windy",
+  "weather.snow": "Snow",
+  "weather.fog": "Fog",
 
   // --- leagues ---
   "league.choose": "Choose a league to start",

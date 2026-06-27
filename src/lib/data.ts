@@ -38,6 +38,13 @@ export function leaguePool(league: League): PokemonEntry[] {
   return out;
 }
 
+/** Every pokemon in the dataset, in meta order — used by the dex & raid tools. */
+export function allPokemon(): PokemonEntry[] {
+  const out: PokemonEntry[] = [];
+  for (const id in POKEMON) out.push({ id, mon: POKEMON[id] });
+  return out;
+}
+
 // --- search ----------------------------------------------------------------
 
 function normalize(s: string): string {
