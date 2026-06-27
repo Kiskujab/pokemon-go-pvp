@@ -65,6 +65,7 @@ const ja: Partial<Dict> = {
   "analysis.resists": "耐性",
   "analysis.strongVs": "有利",
   "analysis.movepool": "技",
+  "analysis.moveStats": "技の効率",
   "analysis.fast": "通常",
   "analysis.charged": "ゲージ",
   "analysis.counters": "このメタの対策ポケモン",

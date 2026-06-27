@@ -65,6 +65,7 @@ const nl: Partial<Dict> = {
   "analysis.resists": "Weerstaat",
   "analysis.strongVs": "Sterk tegen",
   "analysis.movepool": "Aanvallen",
+  "analysis.moveStats": "Aanvalsefficiëntie",
   "analysis.fast": "Snel",
   "analysis.charged": "Geladen",
   "analysis.counters": "Beste counters in deze meta",

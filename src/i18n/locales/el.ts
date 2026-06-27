@@ -65,6 +65,7 @@ const el: Partial<Dict> = {
   "analysis.resists": "Αντέχει σε",
   "analysis.strongVs": "Δυνατό σε",
   "analysis.movepool": "Κινήσεις",
+  "analysis.moveStats": "Αποδοτικότητα κινήσεων",
   "analysis.fast": "Γρήγορη",
   "analysis.charged": "Φορτισμένη",
   "analysis.counters": "Καλύτερα counter σε αυτή τη μέτα",

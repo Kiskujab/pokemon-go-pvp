@@ -1,4 +1,4 @@
-import type { Pokemon } from "../types";
+import type { League, Pokemon } from "../types";
 import type { ShieldVerdict } from "../lib/shield";
 import { getMove } from "../lib/data";
 import { getAggregateShieldAdvice, getShieldAdvice } from "../lib/shield";
@@ -14,6 +14,7 @@ const VERDICT_KEY: Record<ShieldVerdict, "shield.shield"> = {
 interface Props {
   activeMyMon: Pokemon;
   opp: Pokemon;
+  league: League;
 }
 
 // Solid colours for the big unified call.
@@ -30,17 +31,17 @@ const CHIP_CLASS: Record<ShieldVerdict, string> = {
   no: "bg-emerald-500/20 text-emerald-200 ring-emerald-500/40",
 };
 
-const fmtMult = (n: number) => `×${n.toFixed(2).replace(/\.?0+$/, "")}`;
+const fmtPct = (n: number) => `${Math.round(n * 100)}%`;
 
 /** Compact shield panel (sits above the board): one big unified verdict for
  *  split-second calls, plus per-move chips side-by-side for detail. */
-export default function ShieldAdvice({ activeMyMon, opp }: Props) {
+export default function ShieldAdvice({ activeMyMon, opp, league }: Props) {
   const { t, name } = useT();
   const moves = opp.chargedMoves
     .map((id) => getMove(id))
     .filter((m): m is NonNullable<typeof m> => Boolean(m));
 
-  const overall = getAggregateShieldAdvice(activeMyMon, moves);
+  const overall = getAggregateShieldAdvice(activeMyMon, moves, opp, league);
 
   return (
     <div className="rounded-2xl border border-white/10 bg-[#1a1a1a] p-2.5">
@@ -53,7 +54,7 @@ export default function ShieldAdvice({ activeMyMon, opp }: Props) {
             {t(VERDICT_KEY[overall.verdict])}
           </span>
           <span className="text-xs font-bold tabular-nums opacity-80">
-            {fmtMult(overall.multiplier)}
+            {overall.damage} · {fmtPct(overall.hpPercent)}
           </span>
         </div>
         <div className="min-w-0 text-xs leading-tight text-white/55">
@@ -72,12 +73,12 @@ export default function ShieldAdvice({ activeMyMon, opp }: Props) {
       {/* per-move chips, side by side */}
       <div className="mt-2 grid grid-cols-2 gap-1.5 sm:grid-cols-4">
         {moves.map((m) => {
-          const advice = getShieldAdvice(activeMyMon, m);
+          const advice = getShieldAdvice(activeMyMon, m, opp, league);
           return (
             <div
               key={m.name}
               className={`flex items-center gap-1.5 rounded-lg px-2 py-1 ring-1 ${CHIP_CLASS[advice.verdict]}`}
-              title={`${name(m)} · ${t(VERDICT_KEY[advice.verdict])} (${fmtMult(advice.multiplier)})`}
+              title={`${name(m)} · ${t(VERDICT_KEY[advice.verdict])} (${advice.damage} · ${fmtPct(advice.hpPercent)})`}
             >
               <span
                 className="h-2.5 w-2.5 shrink-0 rounded-full"
@@ -85,6 +86,9 @@ export default function ShieldAdvice({ activeMyMon, opp }: Props) {
               />
               <span className="min-w-0 flex-1 truncate text-[11px] font-medium">
                 {name(m)}
+              </span>
+              <span className="shrink-0 text-[10px] font-bold tabular-nums opacity-70">
+                {fmtPct(advice.hpPercent)}
               </span>
             </div>
           );

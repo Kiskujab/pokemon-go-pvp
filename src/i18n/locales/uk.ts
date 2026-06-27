@@ -65,6 +65,7 @@ const uk: Partial<Dict> = {
   "analysis.resists": "Стійкий до",
   "analysis.strongVs": "Сильний проти",
   "analysis.movepool": "Атаки",
+  "analysis.moveStats": "Ефективність атак",
   "analysis.fast": "Швидка",
   "analysis.charged": "Заряджена",
   "analysis.counters": "Найкращі контри в цій меті",

@@ -65,6 +65,7 @@ const th: Partial<Dict> = {
   "analysis.resists": "ต้านทาน",
   "analysis.strongVs": "แข็งแกร่งต่อ",
   "analysis.movepool": "ท่า",
+  "analysis.moveStats": "ประสิทธิภาพท่า",
   "analysis.fast": "เร็ว",
   "analysis.charged": "ชาร์จ",
   "analysis.counters": "ตัวเคาน์เตอร์ที่ดีที่สุดในเมตานี้",

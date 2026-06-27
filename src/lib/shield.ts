@@ -1,13 +1,15 @@
-import type { Move, Pokemon } from "../types";
-import { effectiveness, SE, NVE } from "./effectiveness";
+import type { League, Move, Pokemon } from "../types";
+import { damage, effectiveHp } from "./damage";
 
 export type ShieldVerdict = "shield" | "consider" | "no";
 
 export interface ShieldAdvice {
   verdict: ShieldVerdict;
-  /** Effectiveness multiplier of the move's type vs the defender's types. */
-  multiplier: number;
-  /** Short Hungarian label for the UI. */
+  /** Actual damage this move deals to my active mon (GO PvP formula). */
+  damage: number;
+  /** Fraction (0–1) of my active mon's effective HP that damage represents. */
+  hpPercent: number;
+  /** Short Hungarian label (kept for back-compat; UI translates via i18n). */
   label: string;
 }
 
@@ -17,50 +19,58 @@ const LABELS: Record<ShieldVerdict, string> = {
   no: "Ne pajzsolj",
 };
 
-/** Classify a damage multiplier into a shield verdict. Single place to swap the
- *  v1 type-heuristic thresholds for the v2 HP%-based ones. */
-function classify(multiplier: number): ShieldAdvice {
+// v2 — HP%-based thresholds: a hit that removes a big chunk is worth a shield.
+// Single place to tune the verdict boundaries.
+const SHIELD_AT = 0.35; // ≥35% of my HP → shield
+const CONSIDER_AT = 0.18; // 18–35% → judgement call
+
+function classify(damageVal: number, hpPercent: number): ShieldAdvice {
   let verdict: ShieldVerdict;
-  if (multiplier >= SE) verdict = "shield";
-  else if (multiplier <= NVE) verdict = "no";
-  else verdict = "consider";
-  return { verdict, multiplier, label: LABELS[verdict] };
+  if (hpPercent >= SHIELD_AT) verdict = "shield";
+  else if (hpPercent >= CONSIDER_AT) verdict = "consider";
+  else verdict = "no";
+  return { verdict, damage: damageVal, hpPercent, label: LABELS[verdict] };
 }
 
 /**
- * v1 — type-based shield heuristic for one opponent charged move vs my active
- * pokemon. The whole body is swappable: in v2 plug in the real GO damage
- * formula (power, my def, STAB, my remaining HP%) without touching callers.
- *
- *   dmg = floor(0.5 * power * (Atk/Def) * STAB * effectiveness) + 1   // <- v2 here
+ * v2 — should I shield this opponent charged move? Driven by the real GO PvP
+ * damage formula: how much of my active mon's HP the hit actually removes.
  */
-export function getShieldAdvice(myMon: Pokemon, oppMove: Move): ShieldAdvice {
-  return classify(effectiveness(oppMove.type, myMon.types));
+export function getShieldAdvice(
+  myMon: Pokemon,
+  oppMove: Move,
+  opp: Pokemon,
+  league: League
+): ShieldAdvice {
+  const dmg = damage(oppMove, opp, myMon);
+  const hp = effectiveHp(myMon, league);
+  return classify(dmg, hp > 0 ? dmg / hp : 0);
 }
 
 export interface AggregateShieldAdvice extends ShieldAdvice {
-  /** The single most threatening charged move that drives the verdict. */
+  /** The single hardest-hitting charged move that drives the verdict. */
   worstMove: Move | null;
 }
 
 /**
- * One-glance overall call: do I generally need to shield this mon? Worst-case
- * heuristic — driven by the opponent's hardest-hitting charged move, because
- * that's the one you'd burn a shield on. Lets the player decide instantly
- * without reading every move.
+ * One-glance overall call: do I generally need to shield this mon? Worst-case —
+ * driven by the opponent's hardest-hitting charged move, the one you'd burn a
+ * shield on. Lets the player decide instantly without reading every move.
  */
 export function getAggregateShieldAdvice(
   myMon: Pokemon,
-  oppMoves: Move[]
+  oppMoves: Move[],
+  opp: Pokemon,
+  league: League
 ): AggregateShieldAdvice {
   let worstMove: Move | null = null;
-  let max = -1;
+  let worst: ShieldAdvice = classify(0, 0);
   for (const m of oppMoves) {
-    const e = effectiveness(m.type, myMon.types);
-    if (e > max) {
-      max = e;
+    const a = getShieldAdvice(myMon, m, opp, league);
+    if (a.damage > worst.damage) {
+      worst = a;
       worstMove = m;
     }
   }
-  return { ...classify(max < 0 ? 1 : max), worstMove };
+  return { ...worst, worstMove };
 }

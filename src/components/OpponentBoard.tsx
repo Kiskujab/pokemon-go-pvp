@@ -1,4 +1,4 @@
-import type { Pokemon } from "../types";
+import type { League, Pokemon } from "../types";
 import { getMove } from "../lib/data";
 import { getShieldAdvice } from "../lib/shield";
 import { useT } from "../i18n";
@@ -11,11 +11,13 @@ interface Props {
   opp: Pokemon;
   /** My active pokemon — drives the per-move shield advice when present. */
   activeMyMon?: Pokemon | null;
+  /** Active league — needed to normalize damage against effective HP. */
+  league: League;
 }
 
 /** Opponent battle board, reference-infographic style: dark card, fast-move
  *  header(s) coloured by type, and a charged-move grid with move counts. */
-export default function OpponentBoard({ opp, activeMyMon }: Props) {
+export default function OpponentBoard({ opp, activeMyMon, league }: Props) {
   const { name } = useT();
   const fastMoves = opp.fastMoves
     .map((id) => getMove(id))
@@ -64,7 +66,9 @@ export default function OpponentBoard({ opp, activeMyMon }: Props) {
                     move={cm}
                     fastMove={fm}
                     shield={
-                      activeMyMon ? getShieldAdvice(activeMyMon, cm) : undefined
+                      activeMyMon
+                        ? getShieldAdvice(activeMyMon, cm, opp, league)
+                        : undefined
                     }
                   />
                 ))}

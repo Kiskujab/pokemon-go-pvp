@@ -2,6 +2,7 @@ import { useMemo, type ReactNode } from "react";
 import type { League } from "../../types";
 import { getMove, getPokemon, type PokemonEntry } from "../../lib/data";
 import { defensiveProfile, strongVsTypes, topCounters } from "../../lib/analysis";
+import { dpe, dpt, ept } from "../../lib/moveStats";
 import { useT } from "../../i18n";
 import { typeColor, textOn } from "../../lib/typeColors";
 import Sprite from "../Sprite";
@@ -158,6 +159,48 @@ export default function MonAnalysis({
               );
             })}
           </div>
+        </div>
+      </Section>
+
+      <Section title={t("analysis.moveStats")}>
+        <div className="flex flex-col gap-1.5">
+          {[...chargedMoves]
+            .sort((a, b) => dpe(b!) - dpe(a!))
+            .map((m) => {
+              const bg = typeColor(m!.type);
+              return (
+                <div
+                  key={m!.name}
+                  className="flex items-center gap-2 text-xs"
+                >
+                  <span
+                    className="min-w-0 flex-1 truncate rounded-md px-2 py-0.5 font-semibold"
+                    style={{ background: bg, color: textOn(bg) }}
+                  >
+                    {name(m!)}
+                  </span>
+                  <span className="shrink-0 tabular-nums text-white/70">
+                    {dpe(m!).toFixed(2)} DPE
+                  </span>
+                </div>
+              );
+            })}
+          {fastMoves.map((m) => {
+            const bg = typeColor(m!.type);
+            return (
+              <div key={m!.name} className="flex items-center gap-2 text-xs">
+                <span
+                  className="min-w-0 flex-1 truncate rounded-md px-2 py-0.5 font-semibold"
+                  style={{ background: bg, color: textOn(bg) }}
+                >
+                  {name(m!)}
+                </span>
+                <span className="shrink-0 tabular-nums text-white/70">
+                  {dpt(m!).toFixed(1)} DPT · {ept(m!).toFixed(1)} EPT
+                </span>
+              </div>
+            );
+          })}
         </div>
       </Section>
 

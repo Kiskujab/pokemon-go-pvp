@@ -65,6 +65,7 @@ const ko: Partial<Dict> = {
   "analysis.resists": "저항",
   "analysis.strongVs": "강함",
   "analysis.movepool": "기술",
+  "analysis.moveStats": "기술 효율",
   "analysis.fast": "빠른",
   "analysis.charged": "차지",
   "analysis.counters": "이 메타의 최고 카운터",

@@ -65,6 +65,7 @@ const ar: Partial<Dict> = {
   "analysis.resists": "يقاوم",
   "analysis.strongVs": "قوي ضد",
   "analysis.movepool": "الحركات",
+  "analysis.moveStats": "كفاءة الحركات",
   "analysis.fast": "سريعة",
   "analysis.charged": "مشحونة",
   "analysis.counters": "أفضل المضادات في هذه الميتا",

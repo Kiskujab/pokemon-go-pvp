@@ -65,6 +65,7 @@ const cs: Partial<Dict> = {
   "analysis.resists": "Odolává",
   "analysis.strongVs": "Silný proti",
   "analysis.movepool": "Útoky",
+  "analysis.moveStats": "Efektivita útoků",
   "analysis.fast": "Rychlý",
   "analysis.charged": "Nabíjený",
   "analysis.counters": "Nejlepší protějšky v této metě",

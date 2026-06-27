@@ -59,6 +59,11 @@ export default function ChargedMoveTile({ move, fastMove, shield }: Props) {
       <div className="mt-1 truncate text-[11px] font-bold uppercase leading-tight">
         {name(move)}
       </div>
+      {shield && (
+        <div className="mt-0.5 text-[10px] font-bold tabular-nums opacity-90">
+          {shield.damage} · {Math.round(shield.hpPercent * 100)}%
+        </div>
+      )}
     </div>
   );
 }

@@ -141,8 +141,10 @@ export default function BattleScreen({
       <div className="flex-1">
         {opp ? (
           <div className="flex flex-col gap-3">
-            {activeMon && <ShieldAdvice activeMyMon={activeMon} opp={opp} />}
-            <OpponentBoard opp={opp} activeMyMon={activeMon} />
+            {activeMon && (
+              <ShieldAdvice activeMyMon={activeMon} opp={opp} league={league} />
+            )}
+            <OpponentBoard opp={opp} activeMyMon={activeMon} league={league} />
           </div>
         ) : (
           <div className="flex h-full min-h-40 flex-col items-center justify-center rounded-2xl border border-dashed border-white/10 p-6 text-center text-white/40">

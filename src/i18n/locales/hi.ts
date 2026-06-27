@@ -65,6 +65,7 @@ const hi: Partial<Dict> = {
   "analysis.resists": "प्रतिरोध",
   "analysis.strongVs": "मज़बूत",
   "analysis.movepool": "मूव",
+  "analysis.moveStats": "मूव दक्षता",
   "analysis.fast": "फास्ट",
   "analysis.charged": "चार्ज्ड",
   "analysis.counters": "इस मेटा में सर्वश्रेष्ठ काउंटर",

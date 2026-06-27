@@ -65,6 +65,7 @@ const pl: Partial<Dict> = {
   "analysis.resists": "Odporny na",
   "analysis.strongVs": "Silny przeciw",
   "analysis.movepool": "Ataki",
+  "analysis.moveStats": "Wydajność ataków",
   "analysis.fast": "Szybki",
   "analysis.charged": "Ładowany",
   "analysis.counters": "Najlepsze kontry w tej mecie",

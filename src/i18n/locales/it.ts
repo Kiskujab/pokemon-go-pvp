@@ -65,6 +65,7 @@ const it: Partial<Dict> = {
   "analysis.resists": "Resiste a",
   "analysis.strongVs": "Forte contro",
   "analysis.movepool": "Mosse",
+  "analysis.moveStats": "Efficienza mosse",
   "analysis.fast": "Veloce",
   "analysis.charged": "Caricata",
   "analysis.counters": "Migliori counter in questo meta",

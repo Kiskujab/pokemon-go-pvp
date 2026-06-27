@@ -65,6 +65,7 @@ const sv: Partial<Dict> = {
   "analysis.resists": "Motstår",
   "analysis.strongVs": "Stark mot",
   "analysis.movepool": "Attacker",
+  "analysis.moveStats": "Attackeffektivitet",
   "analysis.fast": "Snabb",
   "analysis.charged": "Laddad",
   "analysis.counters": "Bästa counters i denna meta",

@@ -63,6 +63,7 @@ const zh: Partial<Dict> = {
   "analysis.resists": "抵抗",
   "analysis.strongVs": "克制",
   "analysis.movepool": "技能",
+  "analysis.moveStats": "招式效率",
   "analysis.fast": "快速",
   "analysis.charged": "蓄力",
   "analysis.counters": "此环境中的最佳克制",

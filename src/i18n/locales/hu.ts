@@ -65,6 +65,7 @@ const hu: Partial<Dict> = {
   "analysis.resists": "Ellenáll",
   "analysis.strongVs": "Erős ellene",
   "analysis.movepool": "Mozdulatok",
+  "analysis.moveStats": "Mozdulat-hatékonyság",
   "analysis.fast": "Gyors",
   "analysis.charged": "Töltött",
   "analysis.counters": "Legjobb counterek a metában",

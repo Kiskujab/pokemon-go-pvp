@@ -65,6 +65,7 @@ const vi: Partial<Dict> = {
   "analysis.resists": "Kháng",
   "analysis.strongVs": "Mạnh trước",
   "analysis.movepool": "Chiêu",
+  "analysis.moveStats": "Hiệu quả chiêu thức",
   "analysis.fast": "Nhanh",
   "analysis.charged": "Sạc",
   "analysis.counters": "Counter tốt nhất trong meta này",

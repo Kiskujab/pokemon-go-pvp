@@ -65,6 +65,7 @@ const id: Partial<Dict> = {
   "analysis.resists": "Tahan terhadap",
   "analysis.strongVs": "Kuat terhadap",
   "analysis.movepool": "Gerakan",
+  "analysis.moveStats": "Efisiensi gerakan",
   "analysis.fast": "Cepat",
   "analysis.charged": "Terisi",
   "analysis.counters": "Counter terbaik di meta ini",

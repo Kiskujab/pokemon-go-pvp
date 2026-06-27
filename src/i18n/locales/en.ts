@@ -73,6 +73,7 @@ const en = {
   "analysis.resists": "Resists",
   "analysis.strongVs": "Strong against",
   "analysis.movepool": "Movepool",
+  "analysis.moveStats": "Move efficiency",
   "analysis.fast": "Fast",
   "analysis.charged": "Charged",
   "analysis.counters": "Top counters in this meta",

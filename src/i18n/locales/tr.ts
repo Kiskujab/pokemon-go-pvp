@@ -65,6 +65,7 @@ const tr: Partial<Dict> = {
   "analysis.resists": "Dirençli",
   "analysis.strongVs": "Güçlü olduğu",
   "analysis.movepool": "Hamleler",
+  "analysis.moveStats": "Hamle verimliliği",
   "analysis.fast": "Hızlı",
   "analysis.charged": "Şarjlı",
   "analysis.counters": "Bu metadaki en iyi counterlar",
