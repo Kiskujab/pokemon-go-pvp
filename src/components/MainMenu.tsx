@@ -1,57 +1,57 @@
-import type { Mode } from "../App";
 import type { DictKey } from "../i18n/locales/en";
 import { useT } from "../i18n";
 import LanguagePicker from "./LanguagePicker";
 import Pokeball from "./Pokeball";
 
-interface Props {
-  onPick: (mode: Mode) => void;
-}
+// Base-path aware (e.g. "/pokemon-go-pvp/" in production, "/" in dev). Each tool
+// is its own page/route — the menu just links to them.
+const BASE = import.meta.env.BASE_URL;
 
 const CARDS: {
-  mode: Exclude<Mode, "menu">;
+  /** URL segment for this tool's page. */
+  path: string;
   icon: string;
   titleKey: DictKey;
   descKey: DictKey;
   accent: string;
 }[] = [
   {
-    mode: "pvp",
+    path: "pvp-helper",
     icon: "⚔️",
     titleKey: "menu.pvp.title",
     descKey: "menu.pvp.desc",
     accent: "from-sky-500/25 to-sky-700/5 hover:border-sky-400/70",
   },
   {
-    mode: "analysis",
+    path: "meta-team-builder",
     icon: "📊",
     titleKey: "menu.analysis.title",
     descKey: "menu.analysis.desc",
     accent: "from-purple-500/25 to-purple-700/5 hover:border-purple-400/70",
   },
   {
-    mode: "raid",
+    path: "raid-counters",
     icon: "🛡️",
     titleKey: "menu.raid.title",
     descKey: "menu.raid.desc",
     accent: "from-rose-500/25 to-rose-700/5 hover:border-rose-400/70",
   },
   {
-    mode: "types",
+    path: "type-chart",
     icon: "🎯",
     titleKey: "menu.types.title",
     descKey: "menu.types.desc",
     accent: "from-emerald-500/25 to-emerald-700/5 hover:border-emerald-400/70",
   },
   {
-    mode: "dex",
+    path: "poke-dex",
     icon: "📒",
     titleKey: "menu.dex.title",
     descKey: "menu.dex.desc",
     accent: "from-amber-500/25 to-amber-700/5 hover:border-amber-400/70",
   },
   {
-    mode: "weather",
+    path: "weather-boost",
     icon: "⛅",
     titleKey: "menu.weather.title",
     descKey: "menu.weather.desc",
@@ -59,8 +59,8 @@ const CARDS: {
   },
 ];
 
-/** Top-level home screen: choose PvP helper vs Meta/Team builder, pick language. */
-export default function MainMenu({ onPick }: Props) {
+/** Top-level home screen: links out to each tool's page, plus language picker. */
+export default function MainMenu() {
   const { t } = useT();
   return (
     <div className="pogo-aurora flex min-h-dvh flex-col items-center justify-center gap-8 p-6">
@@ -78,10 +78,9 @@ export default function MainMenu({ onPick }: Props) {
         </p>
         <div className="grid gap-4 sm:grid-cols-2">
           {CARDS.map((c, i) => (
-            <button
-              key={c.mode}
-              type="button"
-              onClick={() => onPick(c.mode)}
+            <a
+              key={c.path}
+              href={`${BASE}${c.path}/`}
               style={{ animationDelay: `${0.08 + i * 0.08}s` }}
               className={`group flex animate-fade-up flex-col items-start gap-2 rounded-2xl border border-white/10 bg-gradient-to-b ${c.accent} p-6 text-left transition hover:-translate-y-0.5`}
             >
@@ -92,7 +91,7 @@ export default function MainMenu({ onPick }: Props) {
               <span className="text-sm leading-snug text-white/55">
                 {t(c.descKey)}
               </span>
-            </button>
+            </a>
           ))}
         </div>
       </div>
